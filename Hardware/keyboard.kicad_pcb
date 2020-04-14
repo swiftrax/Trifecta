@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 450)
-    (tracks 0)
+    (drawings 449)
+    (tracks 18)
     (zones 0)
     (modules 159)
     (nets 138)
@@ -642,7 +642,7 @@
   )
 
   (module usb-type-c:Mid_Mount-USB_C_HandSoldering (layer B.Cu) (tedit 5BB34977) (tstamp 5E95FCE4)
-    (at 277.114 142.3416 90)
+    (at 277.114 143.3068 90)
     (path /5E987B30)
     (fp_text reference J1 (at -1.27 7.62 90) (layer B.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
@@ -760,7 +760,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23-6 (layer B.Cu) (tedit 5A02FF57) (tstamp 5E95B629)
-    (at 277.114 156.718)
+    (at 277.114 157.5308)
     (descr "6-pin SOT-23 package")
     (tags SOT-23-6)
     (path /5ED6AEB3)
@@ -1009,7 +1009,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 5E95B5A1)
-    (at 275.844 160.9725 90)
+    (at 275.844 163.8173 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EA2D78E)
@@ -1045,7 +1045,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 5E969F25)
-    (at 278.384 160.9725 90)
+    (at 278.384 163.8173 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EA2F515)
@@ -1081,7 +1081,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 5E965C00)
-    (at 283.464 153.035 180)
+    (at 283.464 153.797 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EE4747C)
@@ -1117,7 +1117,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer B.Cu) (tedit 5B36C52B) (tstamp 5E95B56E)
-    (at 270.764 153.035)
+    (at 270.764 153.797)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EE44A12)
@@ -1189,7 +1189,7 @@
   )
 
   (module Fuse:Fuse_1206_3216Metric (layer B.Cu) (tedit 5B301BBE) (tstamp 5E95AA34)
-    (at 277.1775 153.6065)
+    (at 277.1775 154.432)
     (descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDE6277)
@@ -3435,7 +3435,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 1)
-    (at 152.75625 158.809746 90)
+    (at 147.67625 162.416546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000000)
@@ -3479,7 +3479,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 11)
-    (at 171.80625 158.809746 90)
+    (at 166.72625 162.416546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000010)
@@ -3523,7 +3523,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E9633C3)
-    (at 198.56005 158.13025 80)
+    (at 192.56565 162.04185 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000320)
@@ -3567,7 +3567,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E96337B)
-    (at 217.320638 161.438248 80)
+    (at 211.326238 165.349848 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000330)
@@ -3611,7 +3611,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E963333)
-    (at 236.081225 164.746246 80)
+    (at 230.086825 168.657846 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000340)
@@ -3655,7 +3655,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E9632EB)
-    (at 254.841813 168.054243 80)
+    (at 248.847413 171.965843 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000350)
@@ -3699,7 +3699,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E9632A3)
-    (at 273.602401 171.362241 80)
+    (at 267.608001 175.273841 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000360)
@@ -3743,7 +3743,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964D0C)
-    (at 298.500806 169.61899 100)
+    (at 293.878006 172.46379 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000510)
@@ -3787,7 +3787,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964DE4)
-    (at 317.261393 166.310992 100)
+    (at 312.638593 169.155792 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000520)
@@ -3831,7 +3831,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964D9C)
-    (at 336.021981 163.002994 100)
+    (at 331.399181 165.847794 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000530)
@@ -3875,7 +3875,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964D54)
-    (at 354.782569 159.694997 100)
+    (at 350.159769 162.539797 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000540)
@@ -3919,7 +3919,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 21)
-    (at 381.35625 158.809746 90)
+    (at 375.86985 162.162546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000020)
@@ -3963,7 +3963,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 31)
-    (at 400.40625 158.809746 90)
+    (at 394.91985 162.162546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000030)
@@ -4007,7 +4007,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 41)
-    (at 428.625 158.809746 90)
+    (at 423.1386 162.162546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000040)
@@ -4051,7 +4051,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 51)
-    (at 462.31875 158.809746 90)
+    (at 456.83235 162.162546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000050)
@@ -4095,7 +4095,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 61)
-    (at 152.4 177.859746 90)
+    (at 147.32 181.466546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000060)
@@ -4139,7 +4139,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 71)
-    (at 176.56875 177.859746 90)
+    (at 171.48875 181.466546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000070)
@@ -4183,7 +4183,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E96313B)
-    (at 204.632346 178.544837 80)
+    (at 198.637946 182.456437 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000370)
@@ -4227,7 +4227,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E963213)
-    (at 223.392934 181.852834 80)
+    (at 217.398534 185.764434 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000380)
@@ -4271,7 +4271,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E963183)
-    (at 242.153521 185.160832 80)
+    (at 236.159121 189.072432 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000390)
@@ -4315,7 +4315,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E9631CB)
-    (at 260.914109 188.46883 80)
+    (at 254.919709 192.38043 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000400)
@@ -4359,7 +4359,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964C7C)
-    (at 292.428509 190.033577 100)
+    (at 287.805709 192.878377 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000550)
@@ -4403,7 +4403,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964B5C)
-    (at 311.189097 186.725579 100)
+    (at 306.566297 189.570379 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000560)
@@ -4447,7 +4447,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964CC4)
-    (at 329.949685 183.417581 100)
+    (at 325.326885 186.262381 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000570)
@@ -4491,7 +4491,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964C34)
-    (at 348.710273 180.109583 100)
+    (at 344.087473 182.954383 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000580)
@@ -4535,7 +4535,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 81)
-    (at 376.59375 177.859746 90)
+    (at 371.10735 181.212546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000080)
@@ -4579,7 +4579,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 91)
-    (at 395.64375 177.859746 90)
+    (at 390.15735 181.212546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000090)
@@ -4623,7 +4623,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp A1)
-    (at 414.69375 177.859746 90)
+    (at 409.20735 181.212546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000100)
@@ -4667,7 +4667,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp B1)
-    (at 438.15 177.8 90)
+    (at 432.6636 181.1528 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000110)
@@ -4711,7 +4711,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp C1)
-    (at 467.08125 177.859746 90)
+    (at 461.59485 181.212546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000120)
@@ -4755,7 +4755,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp D1)
-    (at 153.19375 196.85 90)
+    (at 148.11375 200.4568 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000130)
@@ -4799,7 +4799,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp E1)
-    (at 179.42625 196.909746 90)
+    (at 174.34625 200.516546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000140)
@@ -4843,7 +4843,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E9630F3)
-    (at 206.014495 198.132424 80)
+    (at 200.020095 202.044024 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000410)
@@ -4887,7 +4887,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E9630AB)
-    (at 224.775083 201.440422 80)
+    (at 218.780683 205.352022 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000420)
@@ -4931,7 +4931,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E96301B)
-    (at 243.53567 204.748419 80)
+    (at 237.54127 208.660019 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000430)
@@ -4975,7 +4975,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E962FD3)
-    (at 262.296258 208.056417 80)
+    (at 256.301858 211.968017 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000440)
@@ -5019,7 +5019,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964A84)
-    (at 300.426654 207.967165 100)
+    (at 295.803854 210.811965 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000590)
@@ -5063,7 +5063,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964BA4)
-    (at 319.187242 204.659167 100)
+    (at 314.564442 207.503967 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000600)
@@ -5107,7 +5107,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964BEC)
-    (at 337.94783 201.351169 100)
+    (at 333.32503 204.195969 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000610)
@@ -5151,7 +5151,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964B14)
-    (at 356.708417 198.043172 100)
+    (at 352.085617 200.887972 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000620)
@@ -5195,7 +5195,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp F1)
-    (at 383.26125 196.909746 90)
+    (at 377.77485 200.262546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000150)
@@ -5239,7 +5239,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 101)
-    (at 402.31125 196.909746 90)
+    (at 396.82485 200.262546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000160)
@@ -5283,7 +5283,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 111)
-    (at 432.59375 196.85 90)
+    (at 427.10735 200.2028 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000170)
@@ -5327,7 +5327,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 121)
-    (at 471.84375 196.909746 90)
+    (at 466.35735 200.262546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000180)
@@ -5371,7 +5371,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 131)
-    (at 154.813 215.959746 90)
+    (at 149.733 219.566546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000190)
@@ -5415,7 +5415,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 141)
-    (at 186.09375 215.959746 90)
+    (at 181.01375 219.566546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000200)
@@ -5459,7 +5459,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E962F43)
-    (at 212.086791 218.54701 80)
+    (at 206.092391 222.45861 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000450)
@@ -5503,7 +5503,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E963063)
-    (at 230.847379 221.855008 80)
+    (at 224.852979 225.766608 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000460)
@@ -5547,7 +5547,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E962F8B)
-    (at 249.607966 225.163006 80)
+    (at 243.613566 229.074606 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000470)
@@ -5591,7 +5591,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E96325B)
-    (at 268.368554 228.471004 80)
+    (at 262.374154 232.382604 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000480)
@@ -5635,7 +5635,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E9649F4)
-    (at 294.354358 228.381751 100)
+    (at 289.731558 231.226551 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000630)
@@ -5679,7 +5679,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964A3C)
-    (at 313.114946 225.073754 100)
+    (at 308.492146 227.918554 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000640)
@@ -5723,7 +5723,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E9649AC)
-    (at 331.875534 221.765756 100)
+    (at 327.252734 224.610556 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000650)
@@ -5767,7 +5767,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E964ACC)
-    (at 350.636121 218.457758 100)
+    (at 346.013321 221.302558 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000660)
@@ -5811,7 +5811,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 151)
-    (at 376.59375 215.959746 90)
+    (at 371.10735 219.312546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000210)
@@ -5855,7 +5855,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 161)
-    (at 395.64375 215.959746 90)
+    (at 390.15735 219.312546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000220)
@@ -5899,7 +5899,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 171)
-    (at 421.48125 215.959746 90)
+    (at 415.99485 219.312546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000230)
@@ -5943,7 +5943,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 181)
-    (at 452.79375 220.722246 90)
+    (at 447.30735 224.075046 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000240)
@@ -5987,7 +5987,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 191)
-    (at 145.25625 234.95 90)
+    (at 140.17625 238.5568 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000250)
@@ -6031,7 +6031,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 1A1)
-    (at 169.06875 234.95 90)
+    (at 163.98875 238.5568 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000260)
@@ -6075,7 +6075,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E963848)
-    (at 215.646 240.0935 80)
+    (at 209.7532 242.4684 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000490)
@@ -6119,7 +6119,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 321)
-    (at 252.69825 246.4435 80)
+    (at 247.396 248.92 80)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000500)
@@ -6163,7 +6163,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E9654D8)
-    (at 314.10275 242.22075 100)
+    (at 309.53075 246.99595 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000670)
@@ -6207,7 +6207,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 5E965490)
-    (at 346.80525 236.6645 100)
+    (at 342.23325 241.4397 100)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000680)
@@ -6251,7 +6251,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 1B1)
-    (at 383.38125 235.009746 90)
+    (at 377.89485 238.362546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000270)
@@ -6295,7 +6295,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 1C1)
-    (at 407.19375 235.009746 90)
+    (at 401.70735 238.362546 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000280)
@@ -6339,7 +6339,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 1D1)
-    (at 433.74375 239.772246 90)
+    (at 428.25735 243.125046 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000290)
@@ -6383,7 +6383,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 1E1)
-    (at 452.79375 239.772246 90)
+    (at 447.30735 243.125046 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000300)
@@ -6427,7 +6427,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 561B6A12) (tstamp 1F1)
-    (at 471.84375 239.772246 90)
+    (at 466.35735 243.125046 90)
     (descr SOD-123)
     (tags SOD-123)
     (path /00000310)
@@ -6470,20 +6470,19 @@
     )
   )
 
-  (gr_line (start 269.494 142.3416) (end 130.11781 142.3332) (layer Edge.Cuts) (width 0.2) (tstamp 5E97032C))
-  (gr_line (start 284.734 142.3416) (end 470.3489 142.3332) (layer Edge.Cuts) (width 0.2) (tstamp 5E970328))
-  (gr_line (start 470.3489 255.2951) (end 332.742904 255.2951) (layer Edge.Cuts) (width 0.2))
-  (gr_arc (start 272.849434 245.547551) (end 269.376506 265.243712) (angle -20.00004079) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 332.742904 255.2951) (end 276.322447 265.243697) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 479.3489 151.3332) (end 479.3489 243.744027) (layer Edge.Cuts) (width 0.2))
-  (gr_arc (start 130.11781 151.333201) (end 130.11781 142.3332) (angle -90) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 185.944746 250.532601) (end 130.11781 250.5326) (layer Edge.Cuts) (width 0.2))
-  (gr_arc (start 130.117809 241.532601) (end 121.117811 241.5326) (angle -90) (layer Edge.Cuts) (width 0.2))
-  (gr_arc (start 470.3489 151.3332) (end 479.3489 151.3332) (angle -90) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 121.117811 241.5326) (end 121.117811 151.3332) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 269.376506 265.243712) (end 185.944746 250.532601) (layer Edge.Cuts) (width 0.2))
-  (gr_line (start 479.3489 243.744027) (end 479.3489 246.295101) (layer Edge.Cuts) (width 0.2))
-  (gr_arc (start 470.3489 246.2951) (end 470.3489 255.2951) (angle -90) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 269.494 143.3068) (end 128.1176 143.319999) (layer Edge.Cuts) (width 0.2) (tstamp 5E962714))
+  (gr_line (start 284.734 143.3068) (end 472.34869 143.319999) (layer Edge.Cuts) (width 0.2) (tstamp 5E962713))
+  (gr_arc (start 128.117599 241.5194) (end 124.117601 241.519399) (angle -90) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 186.381975 245.5194) (end 128.117599 245.519399) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 270.244528 260.30647) (end 186.381975 245.5194) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 272.849224 245.53435) (end 270.244528 260.30647) (angle -20.00004079) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 332.305244 250.281899) (end 275.453984 260.306459) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 472.34869 147.319999) (end 476.34869 147.319999) (angle -90) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 124.117601 241.519399) (end 124.1176 147.319999) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 472.34869 250.2819) (end 332.305244 250.281899) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 472.348689 246.281899) (end 472.34869 250.2819) (angle -90) (layer Edge.Cuts) (width 0.2))
+  (gr_line (start 476.34869 147.319999) (end 476.34869 246.2819) (layer Edge.Cuts) (width 0.2))
+  (gr_arc (start 128.1176 147.32) (end 128.1176 143.319999) (angle -90) (layer Edge.Cuts) (width 0.2))
   (gr_line (start 290.09125 244.20465) (end 289.27925 244.34805) (layer Dwgs.User) (width 0.2))
   (gr_line (start 296.17925 239.85285) (end 289.53025 241.02415) (layer Dwgs.User) (width 0.2))
   (gr_line (start 289.53025 241.02415) (end 290.09125 244.20465) (layer Dwgs.User) (width 0.2))
@@ -6920,5 +6919,24 @@
   (gr_line (start 314.32925 244.60155) (end 315.10525 249.0044) (layer Dwgs.User) (width 0.2))
   (gr_line (start 228.59525 244.11375) (end 229.40625 244.25705) (layer Dwgs.User) (width 0.2))
   (gr_line (start 229.08125 241.35625) (end 228.59525 244.11375) (layer Dwgs.User) (width 0.2))
+
+  (segment (start 277.864 152.3368) (end 277.864 151.2368) (width 0.25) (layer B.Cu) (net 91))
+  (segment (start 277.319011 152.881789) (end 277.864 152.3368) (width 0.25) (layer B.Cu) (net 91))
+  (segment (start 277.319011 158.075813) (end 277.319011 152.881789) (width 0.25) (layer B.Cu) (net 91))
+  (segment (start 277.723998 158.4808) (end 277.319011 158.075813) (width 0.25) (layer B.Cu) (net 91))
+  (segment (start 278.214 158.4808) (end 277.723998 158.4808) (width 0.25) (layer B.Cu) (net 91))
+  (segment (start 277.864 150.1368) (end 277.864 151.2368) (width 0.25) (layer B.Cu) (net 91))
+  (segment (start 277.788999 150.061799) (end 277.864 150.1368) (width 0.25) (layer B.Cu) (net 91))
+  (segment (start 276.939001 150.061799) (end 277.788999 150.061799) (width 0.25) (layer B.Cu) (net 91))
+  (segment (start 276.864 150.1368) (end 276.939001 150.061799) (width 0.25) (layer B.Cu) (net 91))
+  (segment (start 276.864 151.2368) (end 276.864 150.1368) (width 0.25) (layer B.Cu) (net 91))
+  (segment (start 276.364 152.3368) (end 276.364 151.2368) (width 0.25) (layer B.Cu) (net 93))
+  (segment (start 276.869001 152.841801) (end 276.364 152.3368) (width 0.25) (layer B.Cu) (net 93))
+  (segment (start 276.869001 158.115801) (end 276.869001 152.841801) (width 0.25) (layer B.Cu) (net 93))
+  (segment (start 276.504002 158.4808) (end 276.869001 158.115801) (width 0.25) (layer B.Cu) (net 93))
+  (segment (start 276.014 158.4808) (end 276.504002 158.4808) (width 0.25) (layer B.Cu) (net 93))
+  (segment (start 276.869001 152.841801) (end 276.869002 152.695388) (width 0.25) (layer B.Cu) (net 93))
+  (segment (start 277.364 152.20039) (end 277.364 151.2368) (width 0.25) (layer B.Cu) (net 93))
+  (segment (start 276.869002 152.695388) (end 277.364 152.20039) (width 0.25) (layer B.Cu) (net 93))
 
 )
