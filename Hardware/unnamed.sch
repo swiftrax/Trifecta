@@ -2750,11 +2750,11 @@ Text GLabel 5500 5500 2    50   Input ~ 0
 col1
 Text GLabel 5500 5600 2    50   Input ~ 0
 col2
-Text GLabel 5500 4000 2    50   Input ~ 0
+Text GLabel 5500 5700 2    50   Input ~ 0
 col3
-Text GLabel 5500 3900 2    50   Input ~ 0
+Text GLabel 5500 5800 2    50   Input ~ 0
 col4
-Text GLabel 5500 3600 2    50   Input ~ 0
+Text GLabel 5500 4000 2    50   Input ~ 0
 col5
 Text GLabel 5500 3500 2    50   Input ~ 0
 col6
@@ -2778,11 +2778,11 @@ Text GLabel 5500 3000 2    50   Input ~ 0
 row0
 Text GLabel 5500 3700 2    50   Input ~ 0
 row1
-Text GLabel 5500 5700 2    50   Input ~ 0
-row2
-Text GLabel 5500 5800 2    50   Input ~ 0
-row3
 Text GLabel 5500 5900 2    50   Input ~ 0
+row2
+Text GLabel 5500 3900 2    50   Input ~ 0
+row3
+Text GLabel 5500 3600 2    50   Input ~ 0
 row4
 $Comp
 L Device:Rotary_Encoder_Switch SW2

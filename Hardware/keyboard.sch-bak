@@ -2744,19 +2744,19 @@ Wire Wire Line
 Connection ~ 8100 3050
 Wire Wire Line
 	8450 3050 8600 3050
-Text GLabel 10050 4650 2    50   Input ~ 0
+Text GLabel 5500 5400 2    50   Input ~ 0
 col0
-Text GLabel 10050 4750 2    50   Input ~ 0
+Text GLabel 5500 5500 2    50   Input ~ 0
 col1
-Text GLabel 10050 4850 2    50   Input ~ 0
+Text GLabel 5500 5600 2    50   Input ~ 0
 col2
-Text GLabel 10050 4950 2    50   Input ~ 0
+Text GLabel 5500 4000 2    50   Input ~ 0
 col3
-Text GLabel 10050 5050 2    50   Input ~ 0
+Text GLabel 5500 3900 2    50   Input ~ 0
 col4
-Text GLabel 10050 5150 2    50   Input ~ 0
+Text GLabel 5500 3600 2    50   Input ~ 0
 col5
-Text GLabel 10050 5250 2    50   Input ~ 0
+Text GLabel 5500 3500 2    50   Input ~ 0
 col6
 Text GLabel 5500 3100 2    50   Input ~ 0
 col7
@@ -2778,11 +2778,11 @@ Text GLabel 5500 3000 2    50   Input ~ 0
 row0
 Text GLabel 5500 3700 2    50   Input ~ 0
 row1
-Text GLabel 10050 6550 2    50   Input ~ 0
+Text GLabel 5500 5700 2    50   Input ~ 0
 row2
-Text GLabel 10050 6750 2    50   Input ~ 0
+Text GLabel 5500 5800 2    50   Input ~ 0
 row3
-Text GLabel 10050 6950 2    50   Input ~ 0
+Text GLabel 5500 5900 2    50   Input ~ 0
 row4
 $Comp
 L Device:Rotary_Encoder_Switch SW2
