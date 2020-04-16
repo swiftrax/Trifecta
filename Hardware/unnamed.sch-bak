@@ -2744,45 +2744,45 @@ Wire Wire Line
 Connection ~ 8100 3050
 Wire Wire Line
 	8450 3050 8600 3050
-Text GLabel 5550 5400 2    50   Input ~ 0
+Text GLabel 5500 5400 2    50   Input ~ 0
 col0
-Text GLabel 5550 5500 2    50   Input ~ 0
+Text GLabel 5500 5500 2    50   Input ~ 0
 col1
-Text GLabel 5550 5600 2    50   Input ~ 0
+Text GLabel 5500 5600 2    50   Input ~ 0
 col2
-Text GLabel 5550 5700 2    50   Input ~ 0
+Text GLabel 5500 5700 2    50   Input ~ 0
 col3
-Text GLabel 5550 5800 2    50   Input ~ 0
+Text GLabel 5500 5800 2    50   Input ~ 0
 col4
-Text GLabel 5550 4000 2    50   Input ~ 0
+Text GLabel 5500 4000 2    50   Input ~ 0
 col5
-Text GLabel 5550 3500 2    50   Input ~ 0
+Text GLabel 5500 3500 2    50   Input ~ 0
 col6
-Text GLabel 5550 3100 2    50   Input ~ 0
+Text GLabel 5500 3300 2    50   Input ~ 0
 col7
-Text GLabel 5550 3200 2    50   Input ~ 0
+Text GLabel 5500 3200 2    50   Input ~ 0
 col8
-Text GLabel 5550 3300 2    50   Input ~ 0
+Text GLabel 5500 3100 2    50   Input ~ 0
 col9
-Text GLabel 5550 4200 2    50   Input ~ 0
+Text GLabel 5500 4200 2    50   Input ~ 0
 col10
-Text GLabel 5550 4300 2    50   Input ~ 0
+Text GLabel 5500 4300 2    50   Input ~ 0
 col11
-Text GLabel 5550 4400 2    50   Input ~ 0
+Text GLabel 5500 4400 2    50   Input ~ 0
 col12
-Text GLabel 5550 4500 2    50   Input ~ 0
+Text GLabel 5500 4500 2    50   Input ~ 0
 col13
-Text GLabel 5550 4700 2    50   Input ~ 0
+Text GLabel 5500 4700 2    50   Input ~ 0
 col14
-Text GLabel 5550 3000 2    50   Input ~ 0
+Text GLabel 5500 3000 2    50   Input ~ 0
 row0
-Text GLabel 5550 3700 2    50   Input ~ 0
+Text GLabel 5500 3700 2    50   Input ~ 0
 row1
-Text GLabel 5550 5900 2    50   Input ~ 0
+Text GLabel 5500 5900 2    50   Input ~ 0
 row2
-Text GLabel 5550 3900 2    50   Input ~ 0
+Text GLabel 5500 3900 2    50   Input ~ 0
 row3
-Text GLabel 5550 3600 2    50   Input ~ 0
+Text GLabel 5500 3600 2    50   Input ~ 0
 row4
 $Comp
 L Device:Rotary_Encoder_Switch SW2
@@ -2894,13 +2894,13 @@ Text GLabel 20000 9300 0    50   Input ~ 0
 ENC1A
 Text GLabel 20000 10300 0    50   Input ~ 0
 ENC2A
-Text GLabel 5550 3400 2    50   Input ~ 0
+Text GLabel 5500 3400 2    50   Input ~ 0
 ENCB
-Text GLabel 5550 4600 2    50   Input ~ 0
+Text GLabel 5500 4600 2    50   Input ~ 0
 ENC0A
-Text GLabel 5550 4800 2    50   Input ~ 0
+Text GLabel 5500 4800 2    50   Input ~ 0
 ENC1A
-Text GLabel 5550 4900 2    50   Input ~ 0
+Text GLabel 5500 4900 2    50   Input ~ 0
 ENC2A
 Connection ~ 19550 9500
 Wire Wire Line
