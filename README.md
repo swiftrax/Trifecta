@@ -4,4 +4,4 @@ A 65% Alice with per key RGB and 3 rotary encoders. Designed by 2Moons-JP and sw
 [Octopart BOM](https://octopart.com/bom-tool/yVI4pxNs)
 
 # Render
-![Renders](https://github.com/swiftrax/Trifecta/blob/master/Case/Trifecta_Render.png)
+![Renders](https://github.com/swiftrax/Trifecta/blob/master/Case/Trifecta_BrassKnob.png)
