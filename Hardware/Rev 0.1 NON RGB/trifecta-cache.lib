@@ -1,164 +1,74 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Device_C_Small
+# MX_Alps_Hybrid_MX-NoLED
 #
-DEF Device_C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device_C_Small" 10 -80 50 H V L CNN
+DEF MX_Alps_Hybrid_MX-NoLED MX 0 40 Y Y 1 F N
+F0 "MX" -25 150 60 H V C CNN
+F1 "MX_Alps_Hybrid_MX-NoLED" -25 50 20 H V C CNN
+F2 "" -625 -25 60 H I C CNN
+F3 "" -625 -25 60 H I C CNN
+DRAW
+T 0 125 0 30 0 0 0 COL Normal 0 C C
+T 900 0 -75 30 0 0 0 ROW Normal 0 R C
+S -100 100 50 -50 0 0 0 N
+P 2 0 0 5 -50 -50 -50 50 N
+P 3 0 0 5 50 50 0 50 -50 75 N
+X COL 1 150 50 100 L 0 0 1 1 P
+X ROW 2 -50 -150 100 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
 DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Device_D_Small
+# power_GND
 #
-DEF Device_D_Small D 0 10 N N 1 F N
-F0 "D" -50 80 50 H V L CNN
-F1 "Device_D_Small" -150 -80 50 H V L CNN
-F2 "" 0 0 50 V I C CNN
-F3 "" 0 0 50 V I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -30 -40 -30 40 N
-P 2 0 1 0 -30 0 30 0 N
-P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
-X K 1 -100 0 70 R 50 50 1 1 P
-X A 2 100 0 70 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Polyfuse_Small
-#
-DEF Device_Polyfuse_Small F 0 0 N Y 1 F N
-F0 "F" -75 0 50 V V C CNN
-F1 "Device_Polyfuse_Small" 75 0 50 V V C CNN
-F2 "" 50 -200 50 H I L CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- *polyfuse*
- *PTC*
-$ENDFPLIST
-DRAW
-S -20 50 20 -50 0 1 0 N
-P 2 0 1 0 0 100 0 -100 N
-P 4 0 1 0 -40 50 -40 30 40 -30 40 -50 N
-X ~ 1 0 100 25 D 50 50 1 1 P
-X ~ 2 0 -100 25 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R_Small
-#
-DEF Device_R_Small R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Device_R_Small" 30 -40 50 H V L CNN
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
 DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Device_Resonator_Small
+# power_VCC
 #
-DEF Device_Resonator_Small Y 0 40 Y N 1 F N
-F0 "Y" 125 75 50 H V L CNN
-F1 "Device_Resonator_Small" 125 0 50 H V L CNN
-F2 "" -25 0 50 H I C CNN
-F3 "" -25 0 50 H I C CNN
-$FPLIST
- Filter*
- Resonator*
-$ENDFPLIST
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-C -100 0 10 0 1 0 F
-C 0 -150 10 0 1 0 F
-C 100 0 10 0 1 0 F
-S -140 -100 -60 -110 0 1 0 F
-S -140 -70 -60 -80 0 1 0 F
-S -25 75 25 -75 0 1 12 N
-S 60 -100 140 -110 0 1 0 F
-S 60 -70 140 -80 0 1 0 F
-P 2 0 1 0 -100 -70 -100 0 N
-P 2 0 1 0 -100 0 -55 0 N
-P 2 0 1 0 -100 50 -100 0 N
-P 2 0 1 15 -50 -50 -50 50 N
-P 2 0 1 15 50 -50 50 50 N
-P 2 0 1 0 50 0 100 0 N
-P 2 0 1 0 100 0 100 -70 N
-P 2 0 1 0 100 50 100 0 N
-P 4 0 1 0 95 -110 95 -150 -95 -150 -95 -105 N
-X 1 1 -100 100 50 D 50 50 1 1 P
-X 2 2 0 -200 50 U 50 50 1 1 P
-X 3 3 100 100 50 D 50 50 1 1 P
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Device_Rotary_Encoder_Switch
+# trifecta-rescue_ATmega32U4-AU-MCU_Microchip_ATmega
 #
-DEF Device_Rotary_Encoder_Switch SW 0 10 Y N 1 F N
-F0 "SW" 0 260 50 H V C CNN
-F1 "Device_Rotary_Encoder_Switch" 0 -260 50 H V C CNN
-F2 "" -150 160 50 H I C CNN
-F3 "" 0 260 50 H I C CNN
-$FPLIST
- RotaryEncoder*Switch*
-$ENDFPLIST
-DRAW
-A -15 -2 108 -899 899 0 1 10 N -15 -110 -15 105
-C -150 0 10 0 1 0 F
-C -15 0 75 0 1 10 N
-C 170 -40 5 0 1 10 N
-C 170 40 5 0 1 10 N
-S -200 200 200 -200 0 1 10 f
-P 2 0 1 10 -25 -70 -25 70 N
-P 2 0 1 10 -15 -70 -15 70 N
-P 2 0 1 10 -5 70 -5 -70 N
-P 2 0 1 10 150 0 135 0 N
-P 2 0 1 10 150 40 150 -40 N
-P 3 0 1 0 -200 -100 -150 -100 -150 -80 N
-P 3 0 1 0 -200 100 -150 100 -150 80 N
-P 3 0 1 10 10 -120 -20 -110 5 -95 N
-P 3 0 1 10 10 115 -20 105 5 90 N
-P 3 0 1 10 200 -100 170 -100 170 -40 N
-P 3 0 1 10 200 100 170 100 170 40 N
-P 4 0 1 0 -200 0 -150 0 -150 -40 -130 -80 N
-P 4 0 1 0 -170 0 -150 0 -150 40 -130 80 N
-X A A -300 100 100 R 50 50 1 1 P
-X B B -300 -100 100 R 50 50 1 1 P
-X C C -300 0 100 R 50 50 1 1 P
-X S1 S1 300 100 100 L 50 50 1 1 P
-X S2 S2 300 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# MCU_Microchip_ATmega_ATmega32U4-AU
-#
-DEF MCU_Microchip_ATmega_ATmega32U4-AU U 0 20 Y Y 1 F N
+DEF trifecta-rescue_ATmega32U4-AU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
 F0 "U" -500 1750 50 H V L BNN
-F1 "MCU_Microchip_ATmega_ATmega32U4-AU" 100 -1750 50 H V L TNN
+F1 "trifecta-rescue_ATmega32U4-AU-MCU_Microchip_ATmega" 100 -1750 50 H V L TNN
 F2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
-ALIAS ATmega16U4RC-AU ATmega32U4-AU ATmega32U4RC-AU
 $FPLIST
  TQFP*10x10mm*P0.8mm*
 $ENDFPLIST
@@ -211,29 +121,161 @@ X PB1 9 600 1400 100 L 50 50 1 1 T
 ENDDRAW
 ENDDEF
 #
-# MX_Alps_Hybrid_MX-NoLED
+# trifecta-rescue_C_Small-Device
 #
-DEF MX_Alps_Hybrid_MX-NoLED MX 0 40 Y Y 1 F N
-F0 "MX" -25 150 60 H V C CNN
-F1 "MX_Alps_Hybrid_MX-NoLED" -25 50 20 H V C CNN
-F2 "" -625 -25 60 H I C CNN
-F3 "" -625 -25 60 H I C CNN
+DEF trifecta-rescue_C_Small-Device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "trifecta-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
 DRAW
-T 0 125 0 30 0 0 0 COL Normal 0 C C
-T 900 0 -75 30 0 0 0 ROW Normal 0 R C
-S -100 100 50 -50 0 0 0 N
-P 2 0 0 5 -50 -50 -50 50 N
-P 3 0 0 5 50 50 0 50 -50 75 N
-X COL 1 150 50 100 L 0 0 1 1 P
-X ROW 2 -50 -150 100 U 0 0 1 1 P
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Power_Protection_SRV05-4
+# trifecta-rescue_D_Small-Device
 #
-DEF Power_Protection_SRV05-4 U 0 0 Y Y 1 F N
+DEF trifecta-rescue_D_Small-Device D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "trifecta-rescue_D_Small-Device" -150 -80 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 -30 0 30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# trifecta-rescue_Polyfuse_Small-Device
+#
+DEF trifecta-rescue_Polyfuse_Small-Device F 0 0 N Y 1 F N
+F0 "F" -75 0 50 V V C CNN
+F1 "trifecta-rescue_Polyfuse_Small-Device" 75 0 50 V V C CNN
+F2 "" 50 -200 50 H I L CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *polyfuse*
+ *PTC*
+$ENDFPLIST
+DRAW
+S -20 50 20 -50 0 1 0 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 -40 50 -40 30 40 -30 40 -50 N
+X ~ 1 0 100 25 D 50 50 1 1 P
+X ~ 2 0 -100 25 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# trifecta-rescue_R_Small-Device
+#
+DEF trifecta-rescue_R_Small-Device R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "trifecta-rescue_R_Small-Device" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# trifecta-rescue_Resonator_Small-Device
+#
+DEF trifecta-rescue_Resonator_Small-Device Y 0 40 Y N 1 F N
+F0 "Y" 125 75 50 H V L CNN
+F1 "trifecta-rescue_Resonator_Small-Device" 125 0 50 H V L CNN
+F2 "" -25 0 50 H I C CNN
+F3 "" -25 0 50 H I C CNN
+$FPLIST
+ Filter*
+ Resonator*
+$ENDFPLIST
+DRAW
+C -100 0 10 0 1 0 F
+C 0 -150 10 0 1 0 F
+C 100 0 10 0 1 0 F
+S -140 -100 -60 -110 0 1 0 F
+S -140 -70 -60 -80 0 1 0 F
+S -25 75 25 -75 0 1 12 N
+S 60 -100 140 -110 0 1 0 F
+S 60 -70 140 -80 0 1 0 F
+P 2 0 1 0 -100 -70 -100 0 N
+P 2 0 1 0 -100 0 -55 0 N
+P 2 0 1 0 -100 50 -100 0 N
+P 2 0 1 15 -50 -50 -50 50 N
+P 2 0 1 15 50 -50 50 50 N
+P 2 0 1 0 50 0 100 0 N
+P 2 0 1 0 100 0 100 -70 N
+P 2 0 1 0 100 50 100 0 N
+P 4 0 1 0 95 -110 95 -150 -95 -150 -95 -105 N
+X 1 1 -100 100 50 D 50 50 1 1 P
+X 2 2 0 -200 50 U 50 50 1 1 P
+X 3 3 100 100 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# trifecta-rescue_Rotary_Encoder_Switch-Device
+#
+DEF trifecta-rescue_Rotary_Encoder_Switch-Device SW 0 10 Y N 1 F N
+F0 "SW" 0 260 50 H V C CNN
+F1 "trifecta-rescue_Rotary_Encoder_Switch-Device" 0 -260 50 H V C CNN
+F2 "" -150 160 50 H I C CNN
+F3 "" 0 260 50 H I C CNN
+$FPLIST
+ RotaryEncoder*Switch*
+$ENDFPLIST
+DRAW
+A -15 -2 108 -899 899 0 1 10 N -15 -110 -15 105
+C -150 0 10 0 1 0 F
+C -15 0 75 0 1 10 N
+C 170 -40 5 0 1 10 N
+C 170 40 5 0 1 10 N
+S -200 200 200 -200 0 1 10 f
+P 2 0 1 10 -25 -70 -25 70 N
+P 2 0 1 10 -15 -70 -15 70 N
+P 2 0 1 10 -5 70 -5 -70 N
+P 2 0 1 10 150 0 135 0 N
+P 2 0 1 10 150 40 150 -40 N
+P 3 0 1 0 -200 -100 -150 -100 -150 -80 N
+P 3 0 1 0 -200 100 -150 100 -150 80 N
+P 3 0 1 10 10 -120 -20 -110 5 -95 N
+P 3 0 1 10 10 115 -20 105 5 90 N
+P 3 0 1 10 200 -100 170 -100 170 -40 N
+P 3 0 1 10 200 100 170 100 170 40 N
+P 4 0 1 0 -200 0 -150 0 -150 -40 -130 -80 N
+P 4 0 1 0 -170 0 -150 0 -150 40 -130 80 N
+X A A -300 100 100 R 50 50 1 1 P
+X B B -300 -100 100 R 50 50 1 1 P
+X C C -300 0 100 R 50 50 1 1 P
+X S1 S1 300 100 100 L 50 50 1 1 P
+X S2 S2 300 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# trifecta-rescue_SRV05-4-Power_Protection
+#
+DEF trifecta-rescue_SRV05-4-Power_Protection U 0 0 Y Y 1 F N
 F0 "U" -200 450 50 H V R CNN
-F1 "Power_Protection_SRV05-4" 100 450 50 H V L CNN
+F1 "trifecta-rescue_SRV05-4-Power_Protection" 100 450 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6" 700 -450 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -286,11 +328,11 @@ X IO4 6 500 -100 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_Push
+# trifecta-rescue_SW_Push-Switch
 #
-DEF Switch_SW_Push SW 0 40 N N 1 F N
+DEF trifecta-rescue_SW_Push-Switch SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
+F1 "trifecta-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -303,55 +345,13 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VCC
-#
-DEF power_VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_VCC" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VCC 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # usb-type-c_USB2_C_Receptacle
 #
 DEF usb-type-c_USB2_C_Receptacle J 0 40 Y Y 1 F N
 F0 "J" -100 800 50 H V L CNN
 F1 "usb-type-c_USB2_C_Receptacle" -100 700 50 H V L CNN
 F2 "" 200 50 50 H I C CNN
-F3 "" 200 50 50 H I C CNN
+F3 " ~" 200 50 50 H I C CNN
 $FPLIST
  USB*
 $ENDFPLIST

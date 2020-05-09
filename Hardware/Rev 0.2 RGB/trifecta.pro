@@ -1,5 +1,11 @@
-update=5/6/2020 5:42:12 PM
+update=5/9/2020 10:01:15 AM
 last_client=kicad
+[SchematicFrame]
+version=1
+[ModEditFrame]
+version=1
+[sheetnames]
+1=00000000-0000-0000-0000-00005eb6020c:
 [pcbnew]
 version=1
 PageLayoutDescrFile=

@@ -5,4 +5,5 @@
   (lib (name "random-keyboard-parts")(type "Legacy")(uri "${KIPRJMOD}/Schematic_Library/random-keyboard-parts.lib")(options "")(descr ""))
   (lib (name "usb-type-c")(type "Legacy")(uri "${KIPRJMOD}/Schematic_Library/usb-type-c.lib")(options "")(descr ""))
   (lib (name "unnamed-rescue")(type "Legacy")(uri "${KIPRJMOD}/unnamed-rescue.lib")(options "")(descr ""))
+  (lib (name "trifecta-rescue")(type "Legacy")(uri "${KIPRJMOD}/trifecta-rescue.lib")(options "")(descr ""))
 )
