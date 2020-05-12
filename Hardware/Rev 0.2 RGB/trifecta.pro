@@ -1,5 +1,5 @@
-update=5/9/2020 10:01:15 AM
-last_client=kicad
+update=5/12/2020 2:41:50 PM
+last_client=pcbnew
 [SchematicFrame]
 version=1
 [ModEditFrame]
@@ -10,7 +10,7 @@ version=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-LastSTEPExportPath=
+LastSTEPExportPath=trifecta.step
 LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=
