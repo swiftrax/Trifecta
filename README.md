@@ -11,4 +11,4 @@ A 65% Alice with per key RGB and 3 rotary encoders. Designed by 2Moons-JP and sw
 
 ## License
 
-This repository is under the [GNU GPL V2 license](./LICENSE.GPL2). If you plan to sell these pcbs, make sure to read it.
+This repository is under the [GNU GPL V2 license](https://github.com/swiftrax/Trifecta/blob/master/LICENSE). If you plan to sell these pcbs, make sure to read it.
