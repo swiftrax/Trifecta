@@ -1,5 +1,5 @@
-update=7/3/2020 5:37:03 PM
-last_client=pcbnew
+update=7/4/2020 6:23:02 PM
+last_client=kicad
 [ModEditFrame]
 version=1
 [SchematicFrame]
