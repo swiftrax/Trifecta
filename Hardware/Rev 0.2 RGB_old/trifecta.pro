@@ -1,11 +1,9 @@
-update=5/21/2020 4:52:30 PM
-last_client=kicad
+update=5/24/2020 5:29:46 PM
+last_client=pcbnew
 [SchematicFrame]
 version=1
 [ModEditFrame]
 version=1
-[sheetnames]
-1=00000000-0000-0000-0000-00005eb6020c:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -249,3 +247,5 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[sheetnames]
+1=00000000-0000-0000-0000-00005ecb7579:

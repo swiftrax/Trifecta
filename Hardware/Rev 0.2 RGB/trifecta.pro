@@ -1,5 +1,5 @@
-update=5/20/2020 5:59:48 PM
-last_client=kicad
+update=7/3/2020 5:37:03 PM
+last_client=pcbnew
 [ModEditFrame]
 version=1
 [SchematicFrame]
@@ -7,12 +7,12 @@ version=1
 [PcbFrame]
 version=1
 [sheetnames]
-1=00000000-0000-0000-0000-00005ec665c7:
+1=00000000-0000-0000-0000-00005efbe912:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
 LastNetListRead=
-LastSTEPExportPath=
+LastSTEPExportPath=C:/Users/Brandon Claveria/Desktop/Trifecta/trifecta.step
 LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=
