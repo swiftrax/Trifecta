@@ -1159,8 +1159,6 @@ Wire Wire Line
 Wire Wire Line
 	17425 8475 17675 8475
 Wire Wire Line
-	17450 9475 17700 9475
-Wire Wire Line
 	17425 11475 17675 11475
 Wire Wire Line
 	17425 12475 17675 12475
@@ -1706,15 +1704,15 @@ Text GLabel 5500 3300 2    50   Input ~ 0
 col7
 Text GLabel 5500 3400 2    50   Input ~ 0
 ENC0B
-Text GLabel 5500 3500 2    50   Input ~ 0
+Text GLabel 5500 4200 2    50   Input ~ 0
 col6
 Text GLabel 5500 3600 2    50   Input ~ 0
 row4
 Text GLabel 5500 3700 2    50   Input ~ 0
 row1
-Text GLabel 5500 3900 2    50   Input ~ 0
+Text GLabel 5500 3100 2    50   Input ~ 0
 row3
-Text GLabel 5500 4000 2    50   Input ~ 0
+Text GLabel 5500 3200 2    50   Input ~ 0
 col5
 Text GLabel 5500 4600 2    50   Input ~ 0
 ENC0A
@@ -5972,11 +5970,11 @@ Text GLabel 3775 12975 0    50   Input ~ 0
 row8
 Text GLabel 3775 13125 0    50   Input ~ 0
 row9
-Text GLabel 5500 3100 2    50   Input ~ 0
+Text GLabel 5500 3900 2    50   Input ~ 0
 row5
-Text GLabel 5500 3200 2    50   Input ~ 0
+Text GLabel 5500 4000 2    50   Input ~ 0
 row6
-Text GLabel 5500 4200 2    50   Input ~ 0
+Text GLabel 5500 3500 2    50   Input ~ 0
 row7
 Text GLabel 5500 4300 2    50   Input ~ 0
 row8
@@ -5992,8 +5990,6 @@ Wire Wire Line
 	3775 10125 4225 10125
 Wire Wire Line
 	16225 9975 18225 9975
-Wire Wire Line
-	17675 8475 17675 11475
 Wire Wire Line
 	17250 9925 17250 10125
 Connection ~ 17250 10125
@@ -6250,4 +6246,11 @@ Wire Wire Line
 Connection ~ 4225 13125
 Wire Wire Line
 	4225 13125 6225 13125
+Wire Wire Line
+	17450 9475 17675 9475
+Wire Wire Line
+	17675 8475 17675 9475
+Connection ~ 17675 9475
+Wire Wire Line
+	17675 9475 17675 11475
 $EndSCHEMATC

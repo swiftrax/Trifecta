@@ -1704,15 +1704,15 @@ Text GLabel 5500 3300 2    50   Input ~ 0
 col7
 Text GLabel 5500 3400 2    50   Input ~ 0
 ENC0B
-Text GLabel 5500 3500 2    50   Input ~ 0
+Text GLabel 5500 4200 2    50   Input ~ 0
 col6
 Text GLabel 5500 3600 2    50   Input ~ 0
 row4
 Text GLabel 5500 3700 2    50   Input ~ 0
 row1
-Text GLabel 5500 3900 2    50   Input ~ 0
+Text GLabel 5500 3100 2    50   Input ~ 0
 row3
-Text GLabel 5500 4000 2    50   Input ~ 0
+Text GLabel 5500 3200 2    50   Input ~ 0
 col5
 Text GLabel 5500 4600 2    50   Input ~ 0
 ENC0A
@@ -1730,7 +1730,7 @@ Text GLabel 5500 5600 2    50   Input ~ 0
 col2
 Text GLabel 5500 5700 2    50   Input ~ 0
 col3
-Text GLabel 5500 5800 2    50   Input ~ 0
+Text GLabel 5500 4300 2    50   Input ~ 0
 col4
 Text GLabel 5500 5900 2    50   Input ~ 0
 row2
@@ -5970,13 +5970,13 @@ Text GLabel 3775 12975 0    50   Input ~ 0
 row8
 Text GLabel 3775 13125 0    50   Input ~ 0
 row9
-Text GLabel 5500 3100 2    50   Input ~ 0
+Text GLabel 5500 3900 2    50   Input ~ 0
 row5
-Text GLabel 5500 3200 2    50   Input ~ 0
+Text GLabel 5500 4000 2    50   Input ~ 0
 row6
-Text GLabel 5500 4200 2    50   Input ~ 0
+Text GLabel 5500 3500 2    50   Input ~ 0
 row7
-Text GLabel 5500 4300 2    50   Input ~ 0
+Text GLabel 5500 5800 2    50   Input ~ 0
 row8
 Text GLabel 5500 4400 2    50   Input ~ 0
 row9
