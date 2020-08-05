@@ -6239,7 +6239,7 @@ L trifecta-rescue:R_Small-device-unnamed-rescue R7
 U 1 1 5EC114AD
 P 24325 2675
 F 0 "R7" V 24130 2680 50  0000 C CNN
-F 1 "510 ohm" V 24221 2671 50  0000 C CNN
+F 1 "510Ω" V 24221 2671 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 24325 2675 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F5100T5E_C17734.pdf" H 24325 2675 50  0001 C CNN
 F 4 "C17734" V 24325 2675 50  0001 C CNN "LCSC Part#"

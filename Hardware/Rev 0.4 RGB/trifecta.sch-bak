@@ -5703,7 +5703,7 @@ U 1 1 5E997CC3
 P 20825 9625
 F 0 "SW3" H 20825 9992 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 20825 9901 50  0000 C CNN
-F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 20675 9785 50  0001 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11" H 20675 9785 50  0001 C CNN
 F 3 "~" H 20825 9885 50  0001 C CNN
 	1    20825 9625
 	1    0    0    -1  
@@ -5714,7 +5714,7 @@ U 1 1 5E999039
 P 20825 10625
 F 0 "SW4" H 20825 10992 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 20825 10901 50  0000 C CNN
-F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 20675 10785 50  0001 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11" H 20675 10785 50  0001 C CNN
 F 3 "~" H 20825 10885 50  0001 C CNN
 	1    20825 10625
 	1    0    0    -1  
@@ -5725,7 +5725,7 @@ U 1 1 5E9943FC
 P 20875 8625
 F 0 "SW2" H 20875 8992 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 20875 8901 50  0000 C CNN
-F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 20725 8785 50  0001 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_EC11" H 20725 8785 50  0001 C CNN
 F 3 "~" H 20875 8885 50  0001 C CNN
 	1    20875 8625
 	1    0    0    -1  
