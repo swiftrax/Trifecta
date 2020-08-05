@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:trifecta-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -2545,7 +2546,7 @@ L trifecta-rescue:R_Small-Device-unnamed-rescue R5
 U 1 1 5EA2D78E
 P 3350 4100
 F 0 "R5" V 3154 4100 50  0000 C CNN
-F 1 "22" V 3245 4100 50  0000 C CNN
+F 1 "22Ω" V 3245 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3350 4100 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2202T5E_C17560.pdf" H 3350 4100 50  0001 C CNN
 F 4 "C17560" V 3350 4100 50  0001 C CNN "LCSC Part#"
@@ -2559,7 +2560,7 @@ L trifecta-rescue:R_Small-Device-unnamed-rescue R4
 U 1 1 5EA2F515
 P 3650 4000
 F 0 "R4" V 3454 4000 50  0000 C CNN
-F 1 "22" V 3545 4000 50  0000 C CNN
+F 1 "22Ω" V 3545 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3650 4000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2202T5E_C17560.pdf" H 3650 4000 50  0001 C CNN
 F 4 "C17560" V 3650 4000 50  0001 C CNN "LCSC Part#"
@@ -2573,7 +2574,7 @@ L trifecta-rescue:R_Small-Device-unnamed-rescue R1
 U 1 1 5EA91E41
 P 4050 2700
 F 0 "R1" H 4109 2746 50  0000 L CNN
-F 1 "10k" H 4109 2655 50  0000 L CNN
+F 1 "10kΩ" H 4109 2655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4050 2700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1002T5E_C17414.pdf" H 4050 2700 50  0001 C CNN
 F 4 "C17414" H 4050 2700 50  0001 C CNN "LCSC Part#"
@@ -2587,7 +2588,7 @@ L trifecta-rescue:R_Small-Device-unnamed-rescue R6
 U 1 1 5EC51613
 P 6250 5100
 F 0 "R6" V 6054 5100 50  0000 C CNN
-F 1 "10k" V 6145 5100 50  0000 C CNN
+F 1 "10kΩ" V 6145 5100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 6250 5100 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1002T5E_C17414.pdf" H 6250 5100 50  0001 C CNN
 F 4 "C17414" V 6250 5100 50  0001 C CNN "LCSC Part#"
@@ -2601,7 +2602,7 @@ L trifecta-rescue:R_Small-Device-unnamed-rescue R2
 U 1 1 5EE44A12
 P 7750 3250
 F 0 "R2" V 7554 3250 50  0000 C CNN
-F 1 "5.1k" V 7645 3250 50  0000 C CNN
+F 1 "5.1kΩ" V 7645 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 7750 3250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F5101T5E_C27834.pdf" H 7750 3250 50  0001 C CNN
 F 4 "C27834" V 7750 3250 50  0001 C CNN "LCSC Part#"
@@ -2615,7 +2616,7 @@ L trifecta-rescue:R_Small-Device-unnamed-rescue R3
 U 1 1 5EE4747C
 P 8050 3350
 F 0 "R3" V 7854 3350 50  0000 C CNN
-F 1 "5.1k" V 7945 3350 50  0000 C CNN
+F 1 "5.1kΩ" V 7945 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8050 3350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F5101T5E_C27834.pdf" H 8050 3350 50  0001 C CNN
 F 4 "C27834" V 8050 3350 50  0001 C CNN "LCSC Part#"
@@ -4155,7 +4156,7 @@ L trifecta-rescue:SW_Push-Switch-unnamed-rescue SW1
 U 1 1 5EA778C5
 P 3550 3000
 F 0 "SW1" H 3550 3285 50  0000 C CNN
-F 1 "SW_Push" H 3550 3194 50  0000 C CNN
+F 1 "RESET" H 3550 3194 50  0000 C CNN
 F 2 "random-keyboard-parts:SKQG-1155865" H 3550 3200 50  0001 C CNN
 F 3 "~" H 3550 3200 50  0001 C CNN
 F 4 "" H 3550 3000 50  0001 C CNN "LCSC Part#"
@@ -5702,7 +5703,7 @@ U 1 1 5E997CC3
 P 20825 9625
 F 0 "SW3" H 20825 9992 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 20825 9901 50  0000 C CNN
-F 2 "Keebio-Parts:RotaryEncoder_EC11" H 20675 9785 50  0001 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 20675 9785 50  0001 C CNN
 F 3 "~" H 20825 9885 50  0001 C CNN
 	1    20825 9625
 	1    0    0    -1  
@@ -5713,7 +5714,7 @@ U 1 1 5E999039
 P 20825 10625
 F 0 "SW4" H 20825 10992 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 20825 10901 50  0000 C CNN
-F 2 "Keebio-Parts:RotaryEncoder_EC11" H 20675 10785 50  0001 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 20675 10785 50  0001 C CNN
 F 3 "~" H 20825 10885 50  0001 C CNN
 	1    20825 10625
 	1    0    0    -1  
@@ -5724,7 +5725,7 @@ U 1 1 5E9943FC
 P 20875 8625
 F 0 "SW2" H 20875 8992 50  0000 C CNN
 F 1 "Rotary_Encoder_Switch" H 20875 8901 50  0000 C CNN
-F 2 "Keebio-Parts:RotaryEncoder_EC11" H 20725 8785 50  0001 C CNN
+F 2 "Keebio-Parts:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 20725 8785 50  0001 C CNN
 F 3 "~" H 20875 8885 50  0001 C CNN
 	1    20875 8625
 	1    0    0    -1  
@@ -6236,631 +6237,21 @@ Wire Wire Line
 $Comp
 L trifecta-rescue:R_Small-device-unnamed-rescue R7
 U 1 1 5EC114AD
-P 27675 2625
-F 0 "R7" V 27480 2630 50  0000 C CNN
-F 1 "510 ohm" V 27571 2621 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 27675 2625 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F5100T5E_C17734.pdf" H 27675 2625 50  0001 C CNN
-F 4 "C17734" V 27675 2625 50  0001 C CNN "LCSC Part#"
-F 5 "0805W8F5100T5E" V 27675 2625 50  0001 C CNN "Part#"
-F 6 "Uniroyal Elec" V 27675 2625 50  0001 C CNN "Mrf"
-	1    27675 2625
+P 24325 2675
+F 0 "R7" V 24130 2680 50  0000 C CNN
+F 1 "510 ohm" V 24221 2671 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 24325 2675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F5100T5E_C17734.pdf" H 24325 2675 50  0001 C CNN
+F 4 "C17734" V 24325 2675 50  0001 C CNN "LCSC Part#"
+F 5 "0805W8F5100T5E" V 24325 2675 50  0001 C CNN "Part#"
+F 6 "Uniroyal Elec" V 24325 2675 50  0001 C CNN "Mrf"
+	1    24325 2675
 	0    -1   -1   0   
 $EndComp
-Text GLabel 28225 2625 2    50   Input ~ 0
+Text GLabel 24875 2675 2    50   Input ~ 0
 LED
 Wire Wire Line
-	27775 2625 28225 2625
+	24425 2675 24875 2675
 Wire Wire Line
-	25925 2625 27575 2625
-Connection ~ 25850 4975
-Connection ~ 25850 4475
-Connection ~ 25850 4575
-Connection ~ 25850 4075
-Connection ~ 25850 3975
-Connection ~ 25850 3575
-Connection ~ 25850 3475
-Connection ~ 25850 3075
-Connection ~ 25900 3075
-Connection ~ 25900 3575
-Connection ~ 25900 4075
-Connection ~ 25900 4575
-Connection ~ 25900 5075
-Wire Wire Line
-	25725 2975 25850 2975
-Wire Wire Line
-	25725 3075 25725 3275
-Wire Wire Line
-	25725 3275 24925 3275
-Wire Wire Line
-	25725 3475 25850 3475
-Wire Wire Line
-	25725 3575 25725 3775
-Wire Wire Line
-	25725 3775 24925 3775
-Wire Wire Line
-	25725 3975 25850 3975
-Wire Wire Line
-	25725 4075 25725 4275
-Wire Wire Line
-	25725 4275 24925 4275
-Wire Wire Line
-	25725 4475 25850 4475
-Wire Wire Line
-	25725 4575 25725 4775
-Wire Wire Line
-	25725 4775 24925 4775
-Wire Wire Line
-	25725 4975 25850 4975
-Wire Wire Line
-	25725 5075 25725 5375
-Wire Wire Line
-	25850 3075 25850 2975
-Wire Wire Line
-	25850 3475 25850 3075
-Wire Wire Line
-	25850 3575 25850 3475
-Wire Wire Line
-	25850 3975 25850 3575
-Wire Wire Line
-	25850 4075 25850 3975
-Wire Wire Line
-	25850 4475 25850 4075
-Wire Wire Line
-	25850 4575 25850 4475
-Wire Wire Line
-	25850 4975 25850 4575
-Wire Wire Line
-	25850 5075 25850 4975
-Wire Wire Line
-	25900 3075 25850 3075
-Wire Wire Line
-	25900 3575 25850 3575
-Wire Wire Line
-	25900 4075 25850 4075
-Wire Wire Line
-	25900 4575 25850 4575
-Wire Wire Line
-	25900 5075 25850 5075
-Wire Wire Line
-	25925 3075 25900 3075
-Wire Wire Line
-	25925 3275 26725 3275
-Wire Wire Line
-	25925 3475 25925 3275
-Wire Wire Line
-	25925 3575 25900 3575
-Wire Wire Line
-	25925 3775 26725 3775
-Wire Wire Line
-	25925 3975 25925 3775
-Wire Wire Line
-	25925 4075 25900 4075
-Wire Wire Line
-	25925 4275 26725 4275
-Wire Wire Line
-	25925 4475 25925 4275
-Wire Wire Line
-	25925 4575 25900 4575
-Wire Wire Line
-	25925 4775 26725 4775
-Wire Wire Line
-	25925 4975 25925 4775
-Wire Wire Line
-	25925 5075 25900 5075
-$Comp
-L power:GND #PWR0153
-U 1 1 5FB8AE92
-P 25900 3275
-F 0 "#PWR0153" H 25900 3025 50  0001 C CNN
-F 1 "GND" H 25905 3102 50  0000 C CNN
-F 2 "" H 25900 3275 50  0001 C CNN
-F 3 "" H 25900 3275 50  0001 C CNN
-	1    25900 3275
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0154
-U 1 1 5FB8AE9C
-P 25900 3775
-F 0 "#PWR0154" H 25900 3525 50  0001 C CNN
-F 1 "GND" H 25905 3602 50  0000 C CNN
-F 2 "" H 25900 3775 50  0001 C CNN
-F 3 "" H 25900 3775 50  0001 C CNN
-	1    25900 3775
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0155
-U 1 1 5FB8AEA6
-P 25900 4275
-F 0 "#PWR0155" H 25900 4025 50  0001 C CNN
-F 1 "GND" H 25905 4102 50  0000 C CNN
-F 2 "" H 25900 4275 50  0001 C CNN
-F 3 "" H 25900 4275 50  0001 C CNN
-	1    25900 4275
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0156
-U 1 1 5FB8AEB0
-P 25900 4775
-F 0 "#PWR0156" H 25900 4525 50  0001 C CNN
-F 1 "GND" H 25905 4602 50  0000 C CNN
-F 2 "" H 25900 4775 50  0001 C CNN
-F 3 "" H 25900 4775 50  0001 C CNN
-	1    25900 4775
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0157
-U 1 1 5FB8AEBA
-P 25900 5275
-F 0 "#PWR0157" H 25900 5025 50  0001 C CNN
-F 1 "GND" H 25905 5102 50  0000 C CNN
-F 2 "" H 25900 5275 50  0001 C CNN
-F 3 "" H 25900 5275 50  0001 C CNN
-	1    25900 5275
-	1    0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:C_Small-device-unnamed-rescue C73
-U 1 1 5FB8AEC7
-P 25900 3175
-F 0 "C73" H 25992 3130 50  0000 L CNN
-F 1 "0.1uF" H 25992 3220 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 25900 3175 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf" H 25900 3175 50  0001 C CNN
-F 4 "C49678" H 25900 3175 50  0001 C CNN "LCSC Part#"
-F 5 "CC0805KRX7R9BB104" H 25900 3175 50  0001 C CNN "Part#"
-F 6 "YAGEO" H 25900 3175 50  0001 C CNN "Mrf"
-	1    25900 3175
-	1    0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:C_Small-device-unnamed-rescue C74
-U 1 1 5FB8AED4
-P 25900 3675
-F 0 "C74" H 25992 3630 50  0000 L CNN
-F 1 "0.1uF" H 25992 3720 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 25900 3675 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf" H 25900 3675 50  0001 C CNN
-F 4 "C49678" H 25900 3675 50  0001 C CNN "LCSC Part#"
-F 5 "CC0805KRX7R9BB104" H 25900 3675 50  0001 C CNN "Part#"
-F 6 "YAGEO" H 25900 3675 50  0001 C CNN "Mrf"
-	1    25900 3675
-	1    0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:C_Small-device-unnamed-rescue C75
-U 1 1 5FB8AEE1
-P 25900 4175
-F 0 "C75" H 25992 4130 50  0000 L CNN
-F 1 "0.1uF" H 25992 4220 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 25900 4175 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf" H 25900 4175 50  0001 C CNN
-F 4 "C49678" H 25900 4175 50  0001 C CNN "LCSC Part#"
-F 5 "CC0805KRX7R9BB104" H 25900 4175 50  0001 C CNN "Part#"
-F 6 "YAGEO" H 25900 4175 50  0001 C CNN "Mrf"
-	1    25900 4175
-	1    0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:C_Small-device-unnamed-rescue C76
-U 1 1 5FB8AEEE
-P 25900 4675
-F 0 "C76" H 25992 4630 50  0000 L CNN
-F 1 "0.1uF" H 25992 4720 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 25900 4675 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf" H 25900 4675 50  0001 C CNN
-F 4 "C49678" H 25900 4675 50  0001 C CNN "LCSC Part#"
-F 5 "CC0805KRX7R9BB104" H 25900 4675 50  0001 C CNN "Part#"
-F 6 "YAGEO" H 25900 4675 50  0001 C CNN "Mrf"
-	1    25900 4675
-	1    0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:C_Small-device-unnamed-rescue C77
-U 1 1 5FB8AEFB
-P 25900 5175
-F 0 "C77" H 25992 5130 50  0000 L CNN
-F 1 "0.1uF" H 25992 5220 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 25900 5175 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf" H 25900 5175 50  0001 C CNN
-F 4 "C49678" H 25900 5175 50  0001 C CNN "LCSC Part#"
-F 5 "CC0805KRX7R9BB104" H 25900 5175 50  0001 C CNN "Part#"
-F 6 "YAGEO" H 25900 5175 50  0001 C CNN "Mrf"
-	1    25900 5175
-	1    0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED14
-U 1 1 5FB8AF05
-P 25325 2975
-F 0 "ULED14" H 25325 2752 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 25325 2843 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 2675 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 2925 50  0001 C CNN
-	1    25325 2975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED13
-U 1 1 5FB8AF0F
-P 25325 3475
-F 0 "ULED13" H 25325 3252 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 25325 3343 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 3175 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 3425 50  0001 C CNN
-	1    25325 3475
-	-1   0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED12
-U 1 1 5FB8AF19
-P 25325 3975
-F 0 "ULED12" H 25325 3752 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 25325 3843 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 3675 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 3925 50  0001 C CNN
-	1    25325 3975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED11
-U 1 1 5FB8AF23
-P 25325 4475
-F 0 "ULED11" H 25325 4252 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 25325 4343 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 4175 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 4425 50  0001 C CNN
-	1    25325 4475
-	-1   0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED10
-U 1 1 5FB8AF2D
-P 25325 4975
-F 0 "ULED10" H 25325 4752 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 25325 4843 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 4675 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 4925 50  0001 C CNN
-	1    25325 4975
-	-1   0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED1
-U 1 1 5FB8AF37
-P 26325 3075
-F 0 "ULED1" H 26325 2852 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 26325 2943 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 2775 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 3025 50  0001 C CNN
-	1    26325 3075
-	1    0    0    1   
-$EndComp
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED2
-U 1 1 5FB8AF41
-P 26325 3575
-F 0 "ULED2" H 26325 3352 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 26325 3443 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 3275 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 3525 50  0001 C CNN
-	1    26325 3575
-	1    0    0    1   
-$EndComp
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED3
-U 1 1 5FB8AF4B
-P 26325 4075
-F 0 "ULED3" H 26325 3852 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 26325 3943 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 3775 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 4025 50  0001 C CNN
-	1    26325 4075
-	1    0    0    1   
-$EndComp
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED4
-U 1 1 5FB8AF55
-P 26325 4575
-F 0 "ULED4" H 26325 4352 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 26325 4443 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 4275 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 4525 50  0001 C CNN
-	1    26325 4575
-	1    0    0    1   
-$EndComp
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED5
-U 1 1 5FB8AF5F
-P 26325 5075
-F 0 "ULED5" H 26325 4852 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 26325 4943 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 4775 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 5025 50  0001 C CNN
-	1    26325 5075
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	25725 5775 24925 5775
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED9
-U 1 1 5FE1019B
-P 25325 5475
-F 0 "ULED9" H 25325 5252 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 25325 5343 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 5175 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 5425 50  0001 C CNN
-	1    25325 5475
-	-1   0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED8
-U 1 1 5FE101A5
-P 25325 5975
-F 0 "ULED8" H 25325 5752 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 25325 5843 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 5675 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 5925 50  0001 C CNN
-	1    25325 5975
-	-1   0    0    -1  
-$EndComp
-Connection ~ 25850 5975
-Connection ~ 25850 5475
-Connection ~ 25850 5575
-Connection ~ 25900 5575
-Connection ~ 25900 6075
-Wire Wire Line
-	25725 5475 25850 5475
-Wire Wire Line
-	25725 5975 25850 5975
-Wire Wire Line
-	25850 5475 25850 5075
-Wire Wire Line
-	25850 5575 25850 5475
-Wire Wire Line
-	25850 5975 25850 5575
-Wire Wire Line
-	25850 6075 25850 5975
-Wire Wire Line
-	25900 5575 25850 5575
-Wire Wire Line
-	25900 6075 25850 6075
-Wire Wire Line
-	25925 5475 25925 5275
-Wire Wire Line
-	25925 5575 25900 5575
-Wire Wire Line
-	25925 5775 26725 5775
-Wire Wire Line
-	25925 5975 25925 5775
-Wire Wire Line
-	25925 6075 25900 6075
-$Comp
-L power:GND #PWR0158
-U 1 1 5FEDB7B1
-P 25900 5275
-F 0 "#PWR0158" H 25900 5025 50  0001 C CNN
-F 1 "GND" H 25905 5102 50  0000 C CNN
-F 2 "" H 25900 5275 50  0001 C CNN
-F 3 "" H 25900 5275 50  0001 C CNN
-	1    25900 5275
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0159
-U 1 1 5FEDB7BB
-P 25900 5775
-F 0 "#PWR0159" H 25900 5525 50  0001 C CNN
-F 1 "GND" H 25905 5602 50  0000 C CNN
-F 2 "" H 25900 5775 50  0001 C CNN
-F 3 "" H 25900 5775 50  0001 C CNN
-	1    25900 5775
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0160
-U 1 1 5FEDB7C5
-P 25900 6275
-F 0 "#PWR0160" H 25900 6025 50  0001 C CNN
-F 1 "GND" H 25905 6102 50  0000 C CNN
-F 2 "" H 25900 6275 50  0001 C CNN
-F 3 "" H 25900 6275 50  0001 C CNN
-	1    25900 6275
-	1    0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:C_Small-device-unnamed-rescue C78
-U 1 1 5FEDB7D2
-P 25900 5675
-F 0 "C78" H 25992 5630 50  0000 L CNN
-F 1 "0.1uF" H 25992 5720 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 25900 5675 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf" H 25900 5675 50  0001 C CNN
-F 4 "C49678" H 25900 5675 50  0001 C CNN "LCSC Part#"
-F 5 "CC0805KRX7R9BB104" H 25900 5675 50  0001 C CNN "Part#"
-F 6 "YAGEO" H 25900 5675 50  0001 C CNN "Mrf"
-	1    25900 5675
-	1    0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:C_Small-device-unnamed-rescue C79
-U 1 1 5FEDB7DF
-P 25900 6175
-F 0 "C79" H 25992 6130 50  0000 L CNN
-F 1 "0.1uF" H 25992 6220 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 25900 6175 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf" H 25900 6175 50  0001 C CNN
-F 4 "C49678" H 25900 6175 50  0001 C CNN "LCSC Part#"
-F 5 "CC0805KRX7R9BB104" H 25900 6175 50  0001 C CNN "Part#"
-F 6 "YAGEO" H 25900 6175 50  0001 C CNN "Mrf"
-	1    25900 6175
-	1    0    0    -1  
-$EndComp
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED6
-U 1 1 5FEDB7E9
-P 26325 5575
-F 0 "ULED6" H 26325 5352 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 26325 5443 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 5275 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 5525 50  0001 C CNN
-	1    26325 5575
-	1    0    0    1   
-$EndComp
-$Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED7
-U 1 1 5FEDB7F3
-P 26325 6075
-F 0 "ULED7" H 26325 5852 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 26325 5943 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 5775 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 6025 50  0001 C CNN
-	1    26325 6075
-	1    0    0    1   
-$EndComp
-Connection ~ 25850 5075
-Connection ~ 25900 5275
-Wire Wire Line
-	25925 2625 25925 2975
-Wire Wire Line
-	26725 2975 27000 2975
-Wire Wire Line
-	27000 2975 27000 3475
-$Comp
-L power:GND #PWR0161
-U 1 1 6034F449
-P 27000 6350
-F 0 "#PWR0161" H 27000 6100 50  0001 C CNN
-F 1 "GND" H 27005 6177 50  0000 C CNN
-F 2 "" H 27000 6350 50  0001 C CNN
-F 3 "" H 27000 6350 50  0001 C CNN
-	1    27000 6350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	26725 5975 27000 5975
-Connection ~ 27000 5975
-Wire Wire Line
-	27000 5975 27000 6350
-Wire Wire Line
-	26725 5475 27000 5475
-Connection ~ 27000 5475
-Wire Wire Line
-	27000 5475 27000 5975
-Wire Wire Line
-	26725 4975 27000 4975
-Connection ~ 27000 4975
-Wire Wire Line
-	27000 4975 27000 5475
-Wire Wire Line
-	26725 4475 27000 4475
-Connection ~ 27000 4475
-Wire Wire Line
-	27000 4475 27000 4975
-Wire Wire Line
-	26725 3975 27000 3975
-Connection ~ 27000 3975
-Wire Wire Line
-	27000 3975 27000 4475
-Wire Wire Line
-	26725 3475 27000 3475
-Connection ~ 27000 3475
-Wire Wire Line
-	27000 3475 27000 3975
-$Comp
-L power:GND #PWR0162
-U 1 1 609C43AD
-P 24625 6375
-F 0 "#PWR0162" H 24625 6125 50  0001 C CNN
-F 1 "GND" H 24630 6202 50  0000 C CNN
-F 2 "" H 24625 6375 50  0001 C CNN
-F 3 "" H 24625 6375 50  0001 C CNN
-	1    24625 6375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	24925 3075 24625 3075
-Wire Wire Line
-	24625 3075 24625 3575
-Wire Wire Line
-	24925 3575 24625 3575
-Connection ~ 24625 3575
-Wire Wire Line
-	24625 3575 24625 4075
-Wire Wire Line
-	24925 4075 24625 4075
-Connection ~ 24625 4075
-Wire Wire Line
-	24625 4075 24625 4575
-Wire Wire Line
-	24925 4575 24625 4575
-Connection ~ 24625 4575
-Wire Wire Line
-	24625 4575 24625 5075
-Wire Wire Line
-	24925 5075 24625 5075
-Connection ~ 24625 5075
-Wire Wire Line
-	24625 5075 24625 5575
-Wire Wire Line
-	24925 5575 24625 5575
-Connection ~ 24625 5575
-Wire Wire Line
-	24625 5575 24625 6075
-Wire Wire Line
-	24925 6075 24625 6075
-Connection ~ 24625 6075
-Wire Wire Line
-	24625 6075 24625 6375
-Wire Wire Line
-	26725 3275 26725 3075
-Wire Wire Line
-	26725 3775 26725 3575
-Wire Wire Line
-	26725 4275 26725 4075
-Wire Wire Line
-	26725 4775 26725 4575
-Wire Wire Line
-	26725 5775 26725 5575
-Wire Wire Line
-	26725 6075 26725 6575
-Wire Wire Line
-	26725 6575 25725 6575
-Wire Wire Line
-	25725 6575 25725 6075
-Wire Wire Line
-	24925 5975 24925 5775
-Wire Wire Line
-	25725 5375 24925 5375
-Wire Wire Line
-	24925 5375 24925 5475
-Wire Wire Line
-	24925 4975 24925 4775
-Wire Wire Line
-	24925 4475 24925 4275
-Wire Wire Line
-	24925 3975 24925 3775
-Wire Wire Line
-	24925 3275 24925 3475
-Wire Wire Line
-	25850 2975 25850 2250
-$Comp
-L power:+5V #PWR?
-U 1 1 61C2FB84
-P 25850 2250
-F 0 "#PWR?" H 25850 2100 50  0001 C CNN
-F 1 "+5V" H 25865 2423 50  0000 C CNN
-F 2 "" H 25850 2250 50  0001 C CNN
-F 3 "" H 25850 2250 50  0001 C CNN
-	1    25850 2250
-	1    0    0    -1  
-$EndComp
-Connection ~ 25850 2975
-Wire Wire Line
-	22575 2675 24925 2675
-Wire Wire Line
-	24925 2675 24925 2975
+	22575 2675 24225 2675
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:trifecta-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -2545,7 +2546,7 @@ L trifecta-rescue:R_Small-Device-unnamed-rescue R5
 U 1 1 5EA2D78E
 P 3350 4100
 F 0 "R5" V 3154 4100 50  0000 C CNN
-F 1 "22" V 3245 4100 50  0000 C CNN
+F 1 "22Ω" V 3245 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3350 4100 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2202T5E_C17560.pdf" H 3350 4100 50  0001 C CNN
 F 4 "C17560" V 3350 4100 50  0001 C CNN "LCSC Part#"
@@ -2559,7 +2560,7 @@ L trifecta-rescue:R_Small-Device-unnamed-rescue R4
 U 1 1 5EA2F515
 P 3650 4000
 F 0 "R4" V 3454 4000 50  0000 C CNN
-F 1 "22" V 3545 4000 50  0000 C CNN
+F 1 "22Ω" V 3545 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3650 4000 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2202T5E_C17560.pdf" H 3650 4000 50  0001 C CNN
 F 4 "C17560" V 3650 4000 50  0001 C CNN "LCSC Part#"
@@ -2573,7 +2574,7 @@ L trifecta-rescue:R_Small-Device-unnamed-rescue R1
 U 1 1 5EA91E41
 P 4050 2700
 F 0 "R1" H 4109 2746 50  0000 L CNN
-F 1 "10k" H 4109 2655 50  0000 L CNN
+F 1 "10kΩ" H 4109 2655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 4050 2700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1002T5E_C17414.pdf" H 4050 2700 50  0001 C CNN
 F 4 "C17414" H 4050 2700 50  0001 C CNN "LCSC Part#"
@@ -2587,7 +2588,7 @@ L trifecta-rescue:R_Small-Device-unnamed-rescue R6
 U 1 1 5EC51613
 P 6250 5100
 F 0 "R6" V 6054 5100 50  0000 C CNN
-F 1 "10k" V 6145 5100 50  0000 C CNN
+F 1 "10kΩ" V 6145 5100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 6250 5100 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F1002T5E_C17414.pdf" H 6250 5100 50  0001 C CNN
 F 4 "C17414" V 6250 5100 50  0001 C CNN "LCSC Part#"
@@ -2601,7 +2602,7 @@ L trifecta-rescue:R_Small-Device-unnamed-rescue R2
 U 1 1 5EE44A12
 P 7750 3250
 F 0 "R2" V 7554 3250 50  0000 C CNN
-F 1 "5.1k" V 7645 3250 50  0000 C CNN
+F 1 "5.1kΩ" V 7645 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 7750 3250 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F5101T5E_C27834.pdf" H 7750 3250 50  0001 C CNN
 F 4 "C27834" V 7750 3250 50  0001 C CNN "LCSC Part#"
@@ -2615,7 +2616,7 @@ L trifecta-rescue:R_Small-Device-unnamed-rescue R3
 U 1 1 5EE4747C
 P 8050 3350
 F 0 "R3" V 7854 3350 50  0000 C CNN
-F 1 "5.1k" V 7945 3350 50  0000 C CNN
+F 1 "5.1kΩ" V 7945 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 8050 3350 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F5101T5E_C27834.pdf" H 8050 3350 50  0001 C CNN
 F 4 "C27834" V 8050 3350 50  0001 C CNN "LCSC Part#"
@@ -4155,7 +4156,7 @@ L trifecta-rescue:SW_Push-Switch-unnamed-rescue SW1
 U 1 1 5EA778C5
 P 3550 3000
 F 0 "SW1" H 3550 3285 50  0000 C CNN
-F 1 "SW_Push" H 3550 3194 50  0000 C CNN
+F 1 "RESET" H 3550 3194 50  0000 C CNN
 F 2 "random-keyboard-parts:SKQG-1155865" H 3550 3200 50  0001 C CNN
 F 3 "~" H 3550 3200 50  0001 C CNN
 F 4 "" H 3550 3000 50  0001 C CNN "LCSC Part#"
