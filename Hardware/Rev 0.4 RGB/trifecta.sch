@@ -1609,8 +1609,6 @@ Wire Wire Line
 Wire Wire Line
 	22550 5625 22500 5625
 Wire Wire Line
-	22575 2675 24225 2675
-Wire Wire Line
 	22575 2975 22575 2675
 Wire Wire Line
 	22575 3075 22550 3075
@@ -1680,8 +1678,6 @@ Wire Wire Line
 	23500 4975 23500 5525
 Wire Wire Line
 	23500 5525 23500 6000
-Wire Wire Line
-	24425 2675 24875 2675
 Text GLabel 2700 4000 0    50   Input ~ 0
 D+
 Text GLabel 2700 4100 0    50   Input ~ 0
@@ -1796,8 +1792,6 @@ Text GLabel 21175 8525 2    50   Input ~ 0
 0row
 Text GLabel 21175 8725 2    50   Input ~ 0
 0col
-Text GLabel 24875 2675 2    50   Input ~ 0
-LED
 $Comp
 L power:VCC #PWR05
 U 1 1 5EE24F73
@@ -2629,20 +2623,6 @@ F 5 "0805W8F5101T5E" V 8050 3350 50  0001 C CNN "Part#"
 F 6 "Uniroyal Elec" V 8050 3350 50  0001 C CNN "Mfr"
 	1    8050 3350
 	0    1    1    0   
-$EndComp
-$Comp
-L trifecta-rescue:R_Small-device-unnamed-rescue R7
-U 1 1 5EC114AD
-P 24325 2675
-F 0 "R7" V 24130 2680 50  0000 C CNN
-F 1 "510 ohm" V 24221 2671 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 24325 2675 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F5100T5E_C17734.pdf" H 24325 2675 50  0001 C CNN
-F 4 "C17734" V 24325 2675 50  0001 C CNN "LCSC Part#"
-F 5 "0805W8F5100T5E" V 24325 2675 50  0001 C CNN "Part#"
-F 6 "Uniroyal Elec" V 24325 2675 50  0001 C CNN "Mrf"
-	1    24325 2675
-	0    -1   -1   0   
 $EndComp
 $Comp
 L trifecta-rescue:D_Small-Device-unnamed-rescue D_1
@@ -6253,4 +6233,24 @@ Wire Wire Line
 Connection ~ 17675 9475
 Wire Wire Line
 	17675 9475 17675 11475
+$Comp
+L trifecta-rescue:R_Small-device-unnamed-rescue R7
+U 1 1 5EC114AD
+P 24325 2675
+F 0 "R7" V 24130 2680 50  0000 C CNN
+F 1 "510 ohm" V 24221 2671 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 24325 2675 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F5100T5E_C17734.pdf" H 24325 2675 50  0001 C CNN
+F 4 "C17734" V 24325 2675 50  0001 C CNN "LCSC Part#"
+F 5 "0805W8F5100T5E" V 24325 2675 50  0001 C CNN "Part#"
+F 6 "Uniroyal Elec" V 24325 2675 50  0001 C CNN "Mrf"
+	1    24325 2675
+	0    -1   -1   0   
+$EndComp
+Text GLabel 24875 2675 2    50   Input ~ 0
+LED
+Wire Wire Line
+	24425 2675 24875 2675
+Wire Wire Line
+	22575 2675 24225 2675
 $EndSCHEMATC
