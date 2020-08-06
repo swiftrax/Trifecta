@@ -6267,12 +6267,6 @@ Connection ~ 25900 4075
 Connection ~ 25900 4575
 Connection ~ 25900 5075
 Wire Wire Line
-	25725 2975 25850 2975
-Wire Wire Line
-	25725 3075 25725 3275
-Wire Wire Line
-	25725 3275 24925 3275
-Wire Wire Line
 	25725 3475 25850 3475
 Wire Wire Line
 	25725 3575 25725 3775
@@ -6294,8 +6288,6 @@ Wire Wire Line
 	25725 4975 25850 4975
 Wire Wire Line
 	25725 5075 25725 5375
-Wire Wire Line
-	25850 3075 25850 2975
 Wire Wire Line
 	25850 3475 25850 3075
 Wire Wire Line
@@ -6474,23 +6466,12 @@ F 6 "YAGEO" H 25900 5175 50  0001 C CNN "Mrf"
 	1    0    0    -1  
 $EndComp
 $Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED14
-U 1 1 5FB8AF05
-P 25325 2975
-F 0 "ULED14" H 25325 2752 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 25325 2843 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 2675 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 2925 50  0001 C CNN
-	1    25325 2975
-	-1   0    0    -1  
-$EndComp
-$Comp
 L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED13
 U 1 1 5FB8AF0F
 P 25325 3475
 F 0 "ULED13" H 25325 3252 50  0000 C CNN
 F 1 "YS-SK6812MINI-E" H 25325 3343 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 3175 50  0001 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 25325 3175 50  0001 C CNN
 F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 3425 50  0001 C CNN
 	1    25325 3475
 	-1   0    0    -1  
@@ -6501,7 +6482,7 @@ U 1 1 5FB8AF19
 P 25325 3975
 F 0 "ULED12" H 25325 3752 50  0000 C CNN
 F 1 "YS-SK6812MINI-E" H 25325 3843 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 3675 50  0001 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 25325 3675 50  0001 C CNN
 F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 3925 50  0001 C CNN
 	1    25325 3975
 	-1   0    0    -1  
@@ -6512,7 +6493,7 @@ U 1 1 5FB8AF23
 P 25325 4475
 F 0 "ULED11" H 25325 4252 50  0000 C CNN
 F 1 "YS-SK6812MINI-E" H 25325 4343 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 4175 50  0001 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 25325 4175 50  0001 C CNN
 F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 4425 50  0001 C CNN
 	1    25325 4475
 	-1   0    0    -1  
@@ -6523,7 +6504,7 @@ U 1 1 5FB8AF2D
 P 25325 4975
 F 0 "ULED10" H 25325 4752 50  0000 C CNN
 F 1 "YS-SK6812MINI-E" H 25325 4843 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 4675 50  0001 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 25325 4675 50  0001 C CNN
 F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 4925 50  0001 C CNN
 	1    25325 4975
 	-1   0    0    -1  
@@ -6534,7 +6515,7 @@ U 1 1 5FB8AF37
 P 26325 3075
 F 0 "ULED1" H 26325 2852 50  0000 C CNN
 F 1 "YS-SK6812MINI-E" H 26325 2943 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 2775 50  0001 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 26325 2775 50  0001 C CNN
 F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 3025 50  0001 C CNN
 	1    26325 3075
 	1    0    0    1   
@@ -6545,7 +6526,7 @@ U 1 1 5FB8AF41
 P 26325 3575
 F 0 "ULED2" H 26325 3352 50  0000 C CNN
 F 1 "YS-SK6812MINI-E" H 26325 3443 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 3275 50  0001 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 26325 3275 50  0001 C CNN
 F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 3525 50  0001 C CNN
 	1    26325 3575
 	1    0    0    1   
@@ -6556,7 +6537,7 @@ U 1 1 5FB8AF4B
 P 26325 4075
 F 0 "ULED3" H 26325 3852 50  0000 C CNN
 F 1 "YS-SK6812MINI-E" H 26325 3943 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 3775 50  0001 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 26325 3775 50  0001 C CNN
 F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 4025 50  0001 C CNN
 	1    26325 4075
 	1    0    0    1   
@@ -6567,7 +6548,7 @@ U 1 1 5FB8AF55
 P 26325 4575
 F 0 "ULED4" H 26325 4352 50  0000 C CNN
 F 1 "YS-SK6812MINI-E" H 26325 4443 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 4275 50  0001 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 26325 4275 50  0001 C CNN
 F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 4525 50  0001 C CNN
 	1    26325 4575
 	1    0    0    1   
@@ -6578,7 +6559,7 @@ U 1 1 5FB8AF5F
 P 26325 5075
 F 0 "ULED5" H 26325 4852 50  0000 C CNN
 F 1 "YS-SK6812MINI-E" H 26325 4943 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 4775 50  0001 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 26325 4775 50  0001 C CNN
 F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 5025 50  0001 C CNN
 	1    26325 5075
 	1    0    0    1   
@@ -6591,7 +6572,7 @@ U 1 1 5FE1019B
 P 25325 5475
 F 0 "ULED9" H 25325 5252 50  0000 C CNN
 F 1 "YS-SK6812MINI-E" H 25325 5343 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 5175 50  0001 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 25325 5175 50  0001 C CNN
 F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 5425 50  0001 C CNN
 	1    25325 5475
 	-1   0    0    -1  
@@ -6602,7 +6583,7 @@ U 1 1 5FE101A5
 P 25325 5975
 F 0 "ULED8" H 25325 5752 50  0000 C CNN
 F 1 "YS-SK6812MINI-E" H 25325 5843 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 25325 5675 50  0001 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 25325 5675 50  0001 C CNN
 F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 5925 50  0001 C CNN
 	1    25325 5975
 	-1   0    0    -1  
@@ -6705,7 +6686,7 @@ U 1 1 5FEDB7E9
 P 26325 5575
 F 0 "ULED6" H 26325 5352 50  0000 C CNN
 F 1 "YS-SK6812MINI-E" H 26325 5443 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 5275 50  0001 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 26325 5275 50  0001 C CNN
 F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 5525 50  0001 C CNN
 	1    26325 5575
 	1    0    0    1   
@@ -6716,7 +6697,7 @@ U 1 1 5FEDB7F3
 P 26325 6075
 F 0 "ULED7" H 26325 5852 50  0000 C CNN
 F 1 "YS-SK6812MINI-E" H 26325 5943 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 26325 5775 50  0001 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 26325 5775 50  0001 C CNN
 F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 6025 50  0001 C CNN
 	1    26325 6075
 	1    0    0    1   
@@ -6782,12 +6763,7 @@ F 3 "" H 24625 6375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	24925 3075 24625 3075
-Wire Wire Line
-	24625 3075 24625 3575
-Wire Wire Line
 	24925 3575 24625 3575
-Connection ~ 24625 3575
 Wire Wire Line
 	24625 3575 24625 4075
 Wire Wire Line
@@ -6843,24 +6819,48 @@ Wire Wire Line
 	24925 4475 24925 4275
 Wire Wire Line
 	24925 3975 24925 3775
-Wire Wire Line
-	24925 3275 24925 3475
-Wire Wire Line
-	25850 2975 25850 2250
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0163
 U 1 1 61C2FB84
 P 25850 2250
-F 0 "#PWR?" H 25850 2100 50  0001 C CNN
+F 0 "#PWR0163" H 25850 2100 50  0001 C CNN
 F 1 "+5V" H 25865 2423 50  0000 C CNN
 F 2 "" H 25850 2250 50  0001 C CNN
 F 3 "" H 25850 2250 50  0001 C CNN
 	1    25850 2250
 	1    0    0    -1  
 $EndComp
-Connection ~ 25850 2975
 Wire Wire Line
 	22575 2675 24925 2675
 Wire Wire Line
 	24925 2675 24925 2975
+Connection ~ 24625 3575
+Wire Wire Line
+	24625 3075 24625 3575
+Wire Wire Line
+	24925 3075 24625 3075
+Wire Wire Line
+	24925 3275 24925 3475
+Wire Wire Line
+	25725 3275 24925 3275
+Wire Wire Line
+	25725 3075 25725 3275
+Wire Wire Line
+	25850 2975 25850 2250
+Wire Wire Line
+	25850 3075 25850 2975
+Connection ~ 25850 2975
+Wire Wire Line
+	25725 2975 25850 2975
+$Comp
+L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue ULED14
+U 1 1 5FB8AF05
+P 25325 2975
+F 0 "ULED14" H 25325 2752 50  0000 C CNN
+F 1 "YS-SK6812MINI-E" H 25325 2843 50  0000 C CNN
+F 2 "LED_kicad_footprints-master:Underglow YS-SK6812MINI-E" H 25325 2675 50  0001 C CNN
+F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 2925 50  0001 C CNN
+	1    25325 2975
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
