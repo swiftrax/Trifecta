@@ -6385,17 +6385,6 @@ F 3 "" H 25900 4775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0157
-U 1 1 5FB8AEBA
-P 25900 5275
-F 0 "#PWR0157" H 25900 5025 50  0001 C CNN
-F 1 "GND" H 25905 5102 50  0000 C CNN
-F 2 "" H 25900 5275 50  0001 C CNN
-F 3 "" H 25900 5275 50  0001 C CNN
-	1    25900 5275
-	1    0    0    -1  
-$EndComp
-$Comp
 L trifecta-rescue:C_Small-device-unnamed-rescue C73
 U 1 1 5FB8AEC7
 P 25900 3175
@@ -6610,8 +6599,6 @@ Wire Wire Line
 Wire Wire Line
 	25900 6075 25850 6075
 Wire Wire Line
-	25925 5475 25925 5275
-Wire Wire Line
 	25925 5575 25900 5575
 Wire Wire Line
 	25925 5775 26725 5775
@@ -6703,7 +6690,6 @@ F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 26325 60
 	1    0    0    1   
 $EndComp
 Connection ~ 25850 5075
-Connection ~ 25900 5275
 Wire Wire Line
 	25925 2625 25925 2975
 Wire Wire Line
@@ -6863,4 +6849,10 @@ F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 25325 29
 	1    25325 2975
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	25925 5475 25925 5300
+Wire Wire Line
+	25925 5300 26725 5300
+Wire Wire Line
+	26725 5300 26725 5075
 $EndSCHEMATC
