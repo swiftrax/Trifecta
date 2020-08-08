@@ -6958,4 +6958,6 @@ Wire Wire Line
 	3800 225  3575 225 
 Wire Bus Line
 	2500 -225 2500 2250
+Text Label 2625 825  0    50   ~ 0
+MOSI
 $EndSCHEMATC
