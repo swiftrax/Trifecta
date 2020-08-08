@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:trifecta-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -24,11 +23,11 @@ Connection ~ 2700 5500
 Connection ~ 3100 5500
 Connection ~ 2900 5500
 Connection ~ 2900 5700
-Connection ~ 6850 4400
-Connection ~ 7600 3550
-Connection ~ 7600 3750
-Connection ~ 7600 3050
-Connection ~ 8100 3050
+Connection ~ -2250 9025
+Connection ~ -1500 8175
+Connection ~ -1500 8375
+Connection ~ -1500 7675
+Connection ~ -1000 7675
 Connection ~ 22500 2975
 Connection ~ 22500 3075
 Connection ~ 22500 3475
@@ -269,7 +268,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 2600 4050 2350
 Wire Wire Line
-	4050 3000 3750 3000
+	4050 3000 3850 3000
 Wire Wire Line
 	4050 3000 4050 2800
 Wire Wire Line
@@ -367,13 +366,13 @@ Wire Wire Line
 Wire Wire Line
 	6425 12475 6675 12475
 Wire Wire Line
-	6750 4250 6750 4400
+	-2350 8875 -2350 9025
 Wire Wire Line
-	6750 4400 6850 4400
+	-2350 9025 -2250 9025
 Wire Wire Line
-	6850 4400 6850 4550
+	-2250 9025 -2250 9175
 Wire Wire Line
-	6850 4400 6950 4400
+	-2250 9025 -2150 9025
 Wire Wire Line
 	7225 8725 7225 8775
 Wire Wire Line
@@ -383,13 +382,13 @@ Wire Wire Line
 Wire Wire Line
 	7225 11725 7225 11775
 Wire Wire Line
-	7350 3250 7650 3250
+	-1750 7875 -1450 7875
 Wire Wire Line
-	7350 3350 7950 3350
+	-1750 7975 -1150 7975
 Wire Wire Line
-	7350 3500 7600 3500
+	-1750 8125 -1500 8125
 Wire Wire Line
-	7350 3700 7600 3700
+	-1750 8325 -1500 8325
 Wire Wire Line
 	7425 8525 7675 8525
 Wire Wire Line
@@ -399,41 +398,41 @@ Wire Wire Line
 Wire Wire Line
 	7425 11525 7675 11525
 Wire Wire Line
-	7450 3000 7600 3000
+	-1650 7625 -1500 7625
 Wire Wire Line
-	7450 3100 7600 3100
+	-1650 7725 -1500 7725
 Wire Wire Line
-	7600 3050 7600 3000
+	-1500 7675 -1500 7625
 Wire Wire Line
-	7600 3050 8100 3050
+	-1500 7675 -1000 7675
 Wire Wire Line
-	7600 3100 7600 3050
+	-1500 7725 -1500 7675
 Wire Wire Line
-	7600 3500 7600 3550
+	-1500 8125 -1500 8175
 Wire Wire Line
-	7600 3550 7600 3600
+	-1500 8175 -1500 8225
 Wire Wire Line
-	7600 3550 7800 3550
+	-1500 8175 -1300 8175
 Wire Wire Line
-	7600 3600 7350 3600
+	-1500 8225 -1750 8225
 Wire Wire Line
-	7600 3700 7600 3750
+	-1500 8325 -1500 8375
 Wire Wire Line
-	7600 3750 7600 3800
+	-1500 8375 -1500 8425
 Wire Wire Line
-	7600 3750 7800 3750
+	-1500 8375 -1300 8375
 Wire Wire Line
-	7600 3800 7350 3800
+	-1500 8425 -1750 8425
 Wire Wire Line
 	7675 8525 7675 9525
 Wire Wire Line
-	7850 3250 8250 3250
+	-1250 7875 -850 7875
 Wire Wire Line
-	8100 3050 8250 3050
+	-1000 7675 -850 7675
 Wire Wire Line
-	8450 3050 8600 3050
+	-650 7675 -500 7675
 Wire Wire Line
-	8600 3050 8600 3000
+	-500 7675 -500 7625
 Wire Wire Line
 	9225 8675 9225 8725
 Wire Wire Line
@@ -1678,7 +1677,7 @@ Text GLabel 4675 8225 0    50   Input ~ 0
 col0
 Text GLabel 5500 3000 2    50   Input ~ 0
 row0
-Text GLabel 5500 3300 2    50   Input ~ 0
+Text GLabel 6800 3300 2    50   Input ~ 0
 col7
 Text GLabel 5500 3400 2    50   Input ~ 0
 ENC0B
@@ -1688,9 +1687,9 @@ Text GLabel 5500 3600 2    50   Input ~ 0
 row4
 Text GLabel 5500 3700 2    50   Input ~ 0
 row1
-Text GLabel 5500 3100 2    50   Input ~ 0
+Text GLabel 6800 3100 2    50   Input ~ 0
 row3
-Text GLabel 5500 3200 2    50   Input ~ 0
+Text GLabel 6800 3200 2    50   Input ~ 0
 col5
 Text GLabel 5500 4600 2    50   Input ~ 0
 ENC0A
@@ -1714,17 +1713,17 @@ Text GLabel 5500 5900 2    50   Input ~ 0
 row2
 Text GLabel 6675 8225 0    50   Input ~ 0
 col1
-Text GLabel 7650 3750 3    50   Input ~ 0
+Text GLabel -1450 8375 3    50   Input ~ 0
 D-ESD
-Text GLabel 7750 3550 3    50   Input ~ 0
+Text GLabel -1350 8175 3    50   Input ~ 0
 D+ESD
-Text GLabel 7800 3550 2    50   Input ~ 0
+Text GLabel -1300 8175 2    50   Input ~ 0
 D+
-Text GLabel 7800 3750 2    50   Input ~ 0
+Text GLabel -1300 8375 2    50   Input ~ 0
 D-
 Text GLabel 7800 5450 0    50   Input ~ 0
 D-ESD
-Text GLabel 7900 3050 1    50   Input ~ 0
+Text GLabel -1200 7675 1    50   Input ~ 0
 VBUS
 Text GLabel 8300 5050 1    50   Input ~ 0
 VBUS
@@ -1777,12 +1776,12 @@ Text GLabel 21175 8725 2    50   Input ~ 0
 $Comp
 L power:VCC #PWR05
 U 1 1 5EE24F73
-P 8100 3050
-F 0 "#PWR05" H 8100 2900 50  0001 C CNN
-F 1 "VCC" H 8117 3223 50  0000 C CNN
-F 2 "" H 8100 3050 50  0001 C CNN
-F 3 "" H 8100 3050 50  0001 C CNN
-	1    8100 3050
+P -1000 7675
+F 0 "#PWR05" H -1000 7525 50  0001 C CNN
+F 1 "VCC" H -983 7848 50  0000 C CNN
+F 2 "" H -1000 7675 50  0001 C CNN
+F 3 "" H -1000 7675 50  0001 C CNN
+	1    -1000 7675
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1832,12 +1831,12 @@ $EndComp
 $Comp
 L power:+5V #PWR04
 U 1 1 5EE43BAA
-P 8600 3000
-F 0 "#PWR04" H 8600 2850 50  0001 C CNN
-F 1 "+5V" H 8615 3173 50  0000 C CNN
-F 2 "" H 8600 3000 50  0001 C CNN
-F 3 "" H 8600 3000 50  0001 C CNN
-	1    8600 3000
+P -500 7625
+F 0 "#PWR04" H -500 7475 50  0001 C CNN
+F 1 "+5V" H -485 7798 50  0000 C CNN
+F 2 "" H -500 7625 50  0001 C CNN
+F 3 "" H -500 7625 50  0001 C CNN
+	1    -500 7625
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1986,34 +1985,34 @@ $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 5E9ED404
-P 6850 4550
-F 0 "#PWR010" H 6850 4300 50  0001 C CNN
-F 1 "GND" H 6855 4377 50  0000 C CNN
-F 2 "" H 6850 4550 50  0001 C CNN
-F 3 "" H 6850 4550 50  0001 C CNN
-	1    6850 4550
+P -2250 9175
+F 0 "#PWR010" H -2250 8925 50  0001 C CNN
+F 1 "GND" H -2245 9002 50  0000 C CNN
+F 2 "" H -2250 9175 50  0001 C CNN
+F 3 "" H -2250 9175 50  0001 C CNN
+	1    -2250 9175
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR07
 U 1 1 5EEC6D34
-P 8150 3350
-F 0 "#PWR07" H 8150 3100 50  0001 C CNN
-F 1 "GND" H 8155 3177 50  0000 C CNN
-F 2 "" H 8150 3350 50  0001 C CNN
-F 3 "" H 8150 3350 50  0001 C CNN
-	1    8150 3350
+P -950 7975
+F 0 "#PWR07" H -950 7725 50  0001 C CNN
+F 1 "GND" H -945 7802 50  0000 C CNN
+F 2 "" H -950 7975 50  0001 C CNN
+F 3 "" H -950 7975 50  0001 C CNN
+	1    -950 7975
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 5EEC7B66
-P 8250 3250
-F 0 "#PWR06" H 8250 3000 50  0001 C CNN
-F 1 "GND" H 8255 3077 50  0000 C CNN
-F 2 "" H 8250 3250 50  0001 C CNN
-F 3 "" H 8250 3250 50  0001 C CNN
-	1    8250 3250
+P -850 7875
+F 0 "#PWR06" H -850 7625 50  0001 C CNN
+F 1 "GND" H -845 7702 50  0000 C CNN
+F 2 "" H -850 7875 50  0001 C CNN
+F 3 "" H -850 7875 50  0001 C CNN
+	1    -850 7875
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2581,29 +2580,29 @@ $EndComp
 $Comp
 L trifecta-rescue:R_Small-Device-unnamed-rescue R2
 U 1 1 5EE44A12
-P 7750 3250
-F 0 "R2" V 7554 3250 50  0000 C CNN
-F 1 "5.1kΩ" V 7645 3250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 7750 3250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F5101T5E_C27834.pdf" H 7750 3250 50  0001 C CNN
-F 4 "C27834" V 7750 3250 50  0001 C CNN "LCSC Part#"
-F 5 "0805W8F5101T5E" V 7750 3250 50  0001 C CNN "Part#"
-F 6 "Uniroyal Elec" V 7750 3250 50  0001 C CNN "Mfr"
-	1    7750 3250
+P -1350 7875
+F 0 "R2" V -1546 7875 50  0000 C CNN
+F 1 "5.1kΩ" V -1455 7875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -1350 7875 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F5101T5E_C27834.pdf" H -1350 7875 50  0001 C CNN
+F 4 "C27834" V -1350 7875 50  0001 C CNN "LCSC Part#"
+F 5 "0805W8F5101T5E" V -1350 7875 50  0001 C CNN "Part#"
+F 6 "Uniroyal Elec" V -1350 7875 50  0001 C CNN "Mfr"
+	1    -1350 7875
 	0    1    1    0   
 $EndComp
 $Comp
 L trifecta-rescue:R_Small-Device-unnamed-rescue R3
 U 1 1 5EE4747C
-P 8050 3350
-F 0 "R3" V 7854 3350 50  0000 C CNN
-F 1 "5.1kΩ" V 7945 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8050 3350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F5101T5E_C27834.pdf" H 8050 3350 50  0001 C CNN
-F 4 "C27834" V 8050 3350 50  0001 C CNN "LCSC Part#"
-F 5 "0805W8F5101T5E" V 8050 3350 50  0001 C CNN "Part#"
-F 6 "Uniroyal Elec" V 8050 3350 50  0001 C CNN "Mfr"
-	1    8050 3350
+P -1050 7975
+F 0 "R3" V -1246 7975 50  0000 C CNN
+F 1 "5.1kΩ" V -1155 7975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H -1050 7975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F5101T5E_C27834.pdf" H -1050 7975 50  0001 C CNN
+F 4 "C27834" V -1050 7975 50  0001 C CNN "LCSC Part#"
+F 5 "0805W8F5101T5E" V -1050 7975 50  0001 C CNN "Part#"
+F 6 "Uniroyal Elec" V -1050 7975 50  0001 C CNN "Mfr"
+	1    -1050 7975
 	0    1    1    0   
 $EndComp
 $Comp
@@ -2875,15 +2874,15 @@ $EndComp
 $Comp
 L trifecta-rescue:Polyfuse_Small-Device-unnamed-rescue F1
 U 1 1 5EDE6277
-P 8350 3050
-F 0 "F1" V 8145 3050 50  0000 C CNN
-F 1 "500mA" V 8236 3050 50  0000 C CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 8400 2850 50  0001 L CNN
-F 3 "~" H 8350 3050 50  0001 C CNN
-F 4 "" V 8350 3050 50  0001 C CNN "LCSC Part#"
-F 5 "" V 8350 3050 50  0001 C CNN "Part#"
-F 6 "" V 8350 3050 50  0001 C CNN "Mfr"
-	1    8350 3050
+P -750 7675
+F 0 "F1" V -955 7675 50  0000 C CNN
+F 1 "500mA" V -864 7675 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H -700 7475 50  0001 L CNN
+F 3 "~" H -750 7675 50  0001 C CNN
+F 4 "" V -750 7675 50  0001 C CNN "LCSC Part#"
+F 5 "" V -750 7675 50  0001 C CNN "Part#"
+F 6 "" V -750 7675 50  0001 C CNN "Mfr"
+	1    -750 7675
 	0    1    1    0   
 $EndComp
 $Comp
@@ -5681,15 +5680,15 @@ $EndComp
 $Comp
 L usb-type-c:USB2_C_Receptacle J1
 U 1 1 5E987B30
-P 6950 3550
-F 0 "J1" H 7057 4367 50  0000 C CNN
-F 1 "USB2_C_Receptacle" H 7057 4276 50  0000 C CNN
-F 2 "usb-type-c:Mid_Mount-USB_C_HandSoldering" H 7150 3600 50  0001 C CNN
-F 3 " ~" H 7150 3600 50  0001 C CNN
-F 4 "" H 6950 3550 50  0001 C CNN "LCSC Part#"
-F 5 "" H 6950 3550 50  0001 C CNN "Part#"
-F 6 "" H 6950 3550 50  0001 C CNN "Mfr"
-	1    6950 3550
+P -2150 8175
+F 0 "J1" H -2043 8992 50  0000 C CNN
+F 1 "USB2_C_Receptacle" H -2043 8901 50  0000 C CNN
+F 2 "usb-type-c:Mid_Mount-USB_C_HandSoldering" H -1950 8225 50  0001 C CNN
+F 3 " ~" H -1950 8225 50  0001 C CNN
+F 4 "" H -2150 8175 50  0001 C CNN "LCSC Part#"
+F 5 "" H -2150 8175 50  0001 C CNN "Part#"
+F 6 "" H -2150 8175 50  0001 C CNN "Mfr"
+	1    -2150 8175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -6787,4 +6786,114 @@ Wire Wire Line
 	25725 5775 25725 5575
 Wire Wire Line
 	19675 8400 19675 9525
+$Comp
+L conn:Conn_02x03_Odd_Even J?
+U 1 1 5F4D2931
+P 6775 1375
+F 0 "J?" H 6825 1692 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 6825 1601 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6775 1375 50  0001 C CNN
+F 3 "~" H 6775 1375 50  0001 C CNN
+	1    6775 1375
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	6000 1375 6100 1275
+Entry Wire Line
+	6000 1475 6100 1375
+Entry Wire Line
+	6000 2100 6100 2000
+Wire Wire Line
+	6100 1275 6575 1275
+Wire Wire Line
+	6100 1375 6575 1375
+Wire Wire Line
+	7075 1275 7250 1275
+Wire Wire Line
+	7250 1275 7250 925 
+Wire Wire Line
+	7075 1475 7250 1475
+Wire Wire Line
+	7250 1475 7250 1750
+$Comp
+L power:+5V #PWR?
+U 1 1 5F92BD78
+P 7250 925
+F 0 "#PWR?" H 7250 775 50  0001 C CNN
+F 1 "+5V" H 7265 1098 50  0000 C CNN
+F 2 "" H 7250 925 50  0001 C CNN
+F 3 "" H 7250 925 50  0001 C CNN
+	1    7250 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FA0B155
+P 7250 1750
+F 0 "#PWR?" H 7250 1500 50  0001 C CNN
+F 1 "GND" H 7255 1577 50  0000 C CNN
+F 2 "" H 7250 1750 50  0001 C CNN
+F 3 "" H 7250 1750 50  0001 C CNN
+	1    7250 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2000 7425 2000
+Wire Wire Line
+	7425 2000 7425 1375
+Wire Wire Line
+	7425 1375 7075 1375
+Wire Wire Line
+	6575 1475 6575 1650
+Wire Wire Line
+	6575 1650 3850 1650
+Wire Wire Line
+	3850 1650 3850 3000
+Connection ~ 3850 3000
+Wire Wire Line
+	3850 3000 3750 3000
+Text Label 6125 1275 0    50   ~ 0
+MISO
+Text Label 6125 1375 0    50   ~ 0
+SCK
+Text Label 6125 2000 0    50   ~ 0
+MOSI
+Entry Wire Line
+	6000 3200 6100 3100
+Entry Wire Line
+	6000 3200 5900 3100
+Entry Wire Line
+	6000 3300 6100 3200
+Entry Wire Line
+	6000 3400 6100 3300
+Entry Wire Line
+	6000 3300 5900 3200
+Entry Wire Line
+	6000 3400 5900 3300
+Wire Wire Line
+	5500 3100 5900 3100
+Wire Wire Line
+	5500 3200 5900 3200
+Wire Wire Line
+	5500 3300 5900 3300
+Wire Wire Line
+	6100 3100 6800 3100
+Wire Wire Line
+	6100 3200 6800 3200
+Wire Wire Line
+	6100 3300 6800 3300
+Wire Bus Line
+	6000 1225 6000 3525
+Text Label 5725 3100 0    50   ~ 0
+SCK
+Text Label 6125 3100 0    50   ~ 0
+SCK
+Text Label 5700 3200 0    50   ~ 0
+MOSI
+Text Label 6125 3200 0    50   ~ 0
+MOSI
+Text Label 5700 3300 0    50   ~ 0
+MISO
+Text Label 6125 3300 0    50   ~ 0
+MISO
 $EndSCHEMATC
