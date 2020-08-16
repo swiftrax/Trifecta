@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:trifecta-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -6858,7 +6859,7 @@ Wire Wire Line
 Wire Wire Line
 	25725 5775 25725 5575
 $Comp
-L conn:Conn_02x03_Odd_Even J2
+L trifecta-rescue:Conn_02x03_Odd_Even-conn J2
 U 1 1 5F520C1F
 P 3275 225
 F 0 "J2" H 3325 542 50  0000 C CNN
@@ -6964,9 +6965,9 @@ Wire Wire Line
 	3075 550  200  550 
 Wire Wire Line
 	200  550  200  1725
-Wire Bus Line
-	2500 -225 2500 2250
 Connection ~ 200  1725
 Wire Wire Line
 	200  1725 150  1725
+Wire Bus Line
+	2500 -225 2500 2250
 $EndSCHEMATC

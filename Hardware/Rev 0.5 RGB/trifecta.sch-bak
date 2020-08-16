@@ -275,7 +275,7 @@ Wire Wire Line
 Wire Wire Line
 	450  1325 450  1075
 Wire Wire Line
-	450  1725 150  1725
+	450  1725 200  1725
 Wire Wire Line
 	450  1725 450  1525
 Wire Wire Line
@@ -6883,7 +6883,7 @@ F 3 "" H 3675 -100 50  0001 C CNN
 	1    3675 -100
 	1    0    0    -1  
 $EndComp
-Text GLabel 3075 325  0    50   Input ~ 0
+Text GLabel 1900 175  0    50   Input ~ 0
 RESET
 Wire Wire Line
 	3575 325  3675 325 
@@ -6958,6 +6958,15 @@ Wire Wire Line
 	3800 225  3575 225 
 Text Label 2625 825  0    50   ~ 0
 MOSI
+Wire Wire Line
+	3075 325  3075 550 
+Wire Wire Line
+	3075 550  200  550 
+Wire Wire Line
+	200  550  200  1725
 Wire Bus Line
 	2500 -225 2500 2250
+Connection ~ 200  1725
+Wire Wire Line
+	200  1725 150  1725
 $EndSCHEMATC

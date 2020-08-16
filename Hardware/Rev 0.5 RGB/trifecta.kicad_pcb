@@ -1736,7 +1736,7 @@
     (tags capacitor)
     (path /5FB8AEE1)
     (attr smd)
-    (fp_text reference C75 (at 0 1.65) (layer B.SilkS)
+    (fp_text reference C75 (at 0 1.65) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value 0.1uF (at 0 -1.65) (layer B.Fab)
