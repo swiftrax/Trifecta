@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\ZEUS-NOTE\Documents\GitHub\alice-split-60\Trifecta\Hardware\Rev 0.5 RGB\trifecta.sch</source>
-    <date>21/08/2020 11:32:56</date>
+    <source>C:\Users\ZEUS-NOTE\Documents\GitHub\alice-split-60\Trifecta\Hardware\Rev0.5rgb\trifecta.sch</source>
+    <date>21/08/2020 11:49:02</date>
     <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -3131,13 +3131,13 @@
   </libparts>
   <libraries>
     <library logical="MX_Alps_Hybrid">
-      <uri>C:\Users\ZEUS-NOTE\Documents\GitHub\alice-split-60\Trifecta\Hardware\Rev 0.5 RGB/Schematic_Library/MX_Alps_Hybrid.lib</uri>
+      <uri>C:\Users\ZEUS-NOTE\Documents\GitHub\alice-split-60\Trifecta\Hardware\Rev0.5rgb/Schematic_Library/MX_Alps_Hybrid.lib</uri>
     </library>
     <library logical="trifecta-rescue">
-      <uri>C:\Users\ZEUS-NOTE\Documents\GitHub\alice-split-60\Trifecta\Hardware\Rev 0.5 RGB/trifecta-rescue.lib</uri>
+      <uri>C:\Users\ZEUS-NOTE\Documents\GitHub\alice-split-60\Trifecta\Hardware\Rev0.5rgb/trifecta-rescue.lib</uri>
     </library>
     <library logical="usb-type-c">
-      <uri>C:\Users\ZEUS-NOTE\Documents\GitHub\alice-split-60\Trifecta\Hardware\Rev 0.5 RGB/Schematic_Library/usb-type-c.lib</uri>
+      <uri>C:\Users\ZEUS-NOTE\Documents\GitHub\alice-split-60\Trifecta\Hardware\Rev0.5rgb/Schematic_Library/usb-type-c.lib</uri>
     </library>
   </libraries>
   <nets>
