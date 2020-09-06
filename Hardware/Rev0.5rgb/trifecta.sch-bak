@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:trifecta-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -2547,9 +2548,9 @@ P -250 2825
 F 0 "R5" V -446 2825 50  0000 C CNN
 F 1 "22Ω" V -355 2825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H -250 2825 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2202T5E_C17560.pdf" H -250 2825 50  0001 C CNN
-F 4 "C17560" V -250 2825 50  0001 C CNN "LCSC Part#"
-F 5 "0805W8F2202T5E" V -250 2825 50  0001 C CNN "Part#"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F220JT5E_C17561.pdf" H -250 2825 50  0001 C CNN
+F 4 "C17561" V -250 2825 50  0001 C CNN "LCSC Part#"
+F 5 "0805W8F220JT5E" V -250 2825 50  0001 C CNN "Part#"
 F 6 "Uniroyal Elec" V -250 2825 50  0001 C CNN "Mrf"
 	1    -250 2825
 	0    1    1    0   
@@ -2561,9 +2562,9 @@ P 50 2725
 F 0 "R4" V -146 2725 50  0000 C CNN
 F 1 "22Ω" V -55 2725 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 50  2725 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F2202T5E_C17560.pdf" H 50  2725 50  0001 C CNN
-F 4 "C17560" V 50  2725 50  0001 C CNN "LCSC Part#"
-F 5 "0805W8F2202T5E" V 50  2725 50  0001 C CNN "Part#"
+F 3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F220JT5E_C17561.pdf" H 50  2725 50  0001 C CNN
+F 4 "C17561" V 50  2725 50  0001 C CNN "LCSC Part#"
+F 5 "0805W8F220JT5E" V 50  2725 50  0001 C CNN "Part#"
 F 6 "Uniroyal Elec" V 50  2725 50  0001 C CNN "Mrf"
 	1    50   2725
 	0    1    1    0   
@@ -2897,10 +2898,10 @@ P 8650 1075
 F 0 "F1" V 8445 1075 50  0000 C CNN
 F 1 "500mA" V 8536 1075 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric" H 8700 875 50  0001 L CNN
-F 3 "~" H 8650 1075 50  0001 C CNN
-F 4 "" V 8650 1075 50  0001 C CNN "LCSC Part#"
-F 5 "" V 8650 1075 50  0001 C CNN "Part#"
-F 6 "" V 8650 1075 50  0001 C CNN "Mfr"
+F 3 "https://datasheet.lcsc.com/szlcsc/TECHFUSE-nSMD025_C70068.pdf" H 8650 1075 50  0001 C CNN
+F 4 "C70068" V 8650 1075 50  0001 C CNN "LCSC Part#"
+F 5 "nSMD025" V 8650 1075 50  0001 C CNN "Part#"
+F 6 "TECHFUSE" V 8650 1075 50  0001 C CNN "Mfr"
 	1    8650 1075
 	0    1    1    0   
 $EndComp
@@ -6858,7 +6859,7 @@ Wire Wire Line
 Wire Wire Line
 	25725 5775 25725 5575
 $Comp
-L conn:Conn_02x03_Odd_Even J2
+L trifecta-rescue:Conn_02x03_Odd_Even-conn J2
 U 1 1 5F520C1F
 P 3275 225
 F 0 "J2" H 3325 542 50  0000 C CNN
@@ -6964,9 +6965,9 @@ Wire Wire Line
 	3075 550  200  550 
 Wire Wire Line
 	200  550  200  1725
-Wire Bus Line
-	2500 -225 2500 2250
 Connection ~ 200  1725
 Wire Wire Line
 	200  1725 150  1725
+Wire Bus Line
+	2500 -225 2500 2250
 $EndSCHEMATC
