@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.6)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
 
   (general
     (thickness 1.6)
@@ -2688,6 +2688,11 @@
       (net 195 "Net-(J2-Pad5)"))
     (pad 1 smd rect (at 3.1 -1.85 190) (size 1.8 1.1) (layers B.Cu B.Paste B.Mask)
       (net 73 GND))
+    (model D:/GitHub/kicad-footprints/Custom_Footprints.pretty/Tactile_SMD_5x5mm.STEP
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MX_Only:MXOnly-2U-ReversedStabilizers-NoLED (layer F.Cu) (tedit 5BD3C7BF) (tstamp 0)
@@ -6198,6 +6203,11 @@
       (net 75 +5V) (solder_mask_margin 0.2))
     (pad 1 smd rect (at -5.9 4 270) (size 1.5 0.5) (layers B.Cu B.Paste B.Mask)
       (net 130 LED) (solder_mask_margin 0.2))
+    (model ${KISYS3DMOD}/Package_QFP.3dshapes/LQFP-44_10x10mm_P0.8mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module MX_Only:MXOnly-1.75U-NoLED (layer F.Cu) (tedit 5F3FBD60) (tstamp 0)

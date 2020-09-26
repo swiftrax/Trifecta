@@ -1,9 +1,0 @@
-(fp_lib_table
-  (lib (name "MX_Only")(type "KiCad")(uri "${KIPRJMOD}/MX_Only.pretty")(options "")(descr ""))
-  (lib (name "Keebio-Parts")(type "KiCad")(uri "${KIPRJMOD}/Keebio-Parts.pretty")(options "")(descr ""))
-  (lib (name "Type-C")(type "KiCad")(uri "${KIPRJMOD}/Type-C.pretty")(options "")(descr ""))
-  (lib (name "random-keyboard-parts")(type "KiCad")(uri "${KIPRJMOD}/random-keyboard-parts.pretty-40eb3bec68eab147745606d36de2775955975cf1")(options "")(descr ""))
-  (lib (name "usb-type-c")(type "KiCad")(uri "${KIPRJMOD}/usb-type-c.pretty")(options "")(descr ""))
-  (lib (name "proj_local")(type "KiCad")(uri "${KIPRJMOD}/proj_local.pretty")(options "")(descr ""))
-  (lib (name "LED_kicad_footprints-master")(type "KiCad")(uri "${KIPRJMOD}/LED_kicad_footprints-master")(options "")(descr ""))
-)
