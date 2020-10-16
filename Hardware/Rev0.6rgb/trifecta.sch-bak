@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:trifecta-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -5632,17 +5631,6 @@ F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 21975 49
 	-1   0    0    -1  
 $EndComp
 $Comp
-L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue LED15
-U 1 1 5EA49B59
-P 22975 3075
-F 0 "LED15" H 22975 2852 50  0000 C CNN
-F 1 "YS-SK6812MINI-E" H 22975 2943 50  0000 C CNN
-F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 22975 2775 50  0001 C CNN
-F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 22975 3025 50  0001 C CNN
-	1    22975 3075
-	1    0    0    1   
-$EndComp
-$Comp
 L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue LED30
 U 1 1 5EA49DE8
 P 22975 3575
@@ -6970,4 +6958,147 @@ Wire Wire Line
 	200  1725 150  1725
 Wire Bus Line
 	2500 -225 2500 2250
+$Comp
+L trifecta-rescue:WS2812B-Worldsemi-unnamed-rescue LED15
+U 1 1 5EA49B59
+P 22975 3075
+F 0 "LED15" H 22975 2852 50  0000 C CNN
+F 1 "YS-SK6812MINI-E" H 22975 2943 50  0000 C CNN
+F 2 "LED_kicad_footprints-master:YS-SK6812MINI-E" H 22975 2775 50  0001 C CNN
+F 3 "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf" H 22975 3025 50  0001 C CNN
+	1    22975 3075
+	1    0    0    1   
+$EndComp
+Text Notes 22900 3075 0    50   ~ 0
+14
+Text Notes 22925 3575 0    50   ~ 0
+15
+Text Notes 22900 4050 0    50   ~ 0
+16
+Text Notes 22900 4575 0    50   ~ 0
+17
+Text Notes 22875 5050 0    50   ~ 0
+18
+Text Notes 22925 5625 0    50   ~ 0
+19
+Text Notes 21950 5050 0    50   ~ 0
+20
+Text Notes 21950 4550 0    50   ~ 0
+21
+Text Notes 21950 3525 0    50   ~ 0
+22
+Text Notes 21950 3050 0    50   ~ 0
+23
+Text Notes 20925 3100 0    50   ~ 0
+24
+Text Notes 20925 3575 0    50   ~ 0
+25
+Text Notes 20900 4025 0    50   ~ 0
+26
+Text Notes 20875 4600 0    50   ~ 0
+27
+Text Notes 20900 5050 0    50   ~ 0
+28
+Text Notes 19950 5050 0    50   ~ 0
+29
+Text Notes 19975 4550 0    50   ~ 0
+30
+Text Notes 19925 4050 0    50   ~ 0
+31
+Text Notes 19950 3525 0    50   ~ 0
+32
+Text Notes 19925 3025 0    50   ~ 0
+33
+Text Notes 18900 3075 0    50   ~ 0
+34
+Text Notes 18900 3550 0    50   ~ 0
+35
+Text Notes 18875 4050 0    50   ~ 0
+36
+Text Notes 18875 4525 0    50   ~ 0
+37
+Text Notes 18900 5075 0    50   ~ 0
+38
+Text Notes 17950 4550 0    50   ~ 0
+39
+Text Notes 17925 4050 0    50   ~ 0
+40
+Text Notes 17925 3550 0    50   ~ 0
+41
+Text Notes 17950 3050 0    50   ~ 0
+42
+Text Notes 16900 3050 0    50   ~ 0
+43
+Text Notes 16900 3550 0    50   ~ 0
+44
+Text Notes 16875 4075 0    50   ~ 0
+45
+Text Notes 16875 4550 0    50   ~ 0
+46
+Text Notes 16925 5050 0    50   ~ 0
+47
+Text Notes 15925 4525 0    50   ~ 0
+48
+Text Notes 15925 4050 0    50   ~ 0
+49
+Text Notes 15925 3525 0    50   ~ 0
+50
+Text Notes 15950 3050 0    50   ~ 0
+51
+Text Notes 14900 3100 0    50   ~ 0
+52
+Text Notes 14900 3575 0    50   ~ 0
+53
+Text Notes 14900 4100 0    50   ~ 0
+54
+Text Notes 14925 4575 0    50   ~ 0
+55
+Text Notes 13925 5050 0    50   ~ 0
+56
+Text Notes 13925 4525 0    50   ~ 0
+57
+Text Notes 13950 4025 0    50   ~ 0
+58
+Text Notes 13925 3525 0    50   ~ 0
+59
+Text Notes 13950 3025 0    50   ~ 0
+60
+Text Notes 12900 3075 0    50   ~ 0
+61
+Text Notes 12900 3575 0    50   ~ 0
+62
+Text Notes 12925 4075 0    50   ~ 0
+63
+Text Notes 12875 4575 0    50   ~ 0
+64
+Text Notes 11950 5025 0    50   ~ 0
+65
+Text Notes 11975 4550 0    50   ~ 0
+66
+Text Notes 11950 4025 0    50   ~ 0
+67
+Text Notes 11900 3525 0    50   ~ 0
+68
+Text Notes 11975 3025 0    50   ~ 0
+69
+Text Notes 10950 3050 0    50   ~ 0
+70
+Text Notes 10900 3550 0    50   ~ 0
+71
+Text Notes 10925 4050 0    50   ~ 0
+72
+Text Notes 10900 4550 0    50   ~ 0
+73
+Text Notes 10875 5100 0    50   ~ 0
+74
+Text Notes 9900 5075 0    50   ~ 0
+75
+Text Notes 9950 4525 0    50   ~ 0
+76
+Text Notes 9950 4025 0    50   ~ 0
+77
+Text Notes 9925 3575 0    50   ~ 0
+78
+Text Notes 9975 3050 0    50   ~ 0
+79
 $EndSCHEMATC
