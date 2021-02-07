@@ -7,6 +7,5 @@
   (lib (name proj_local)(type KiCad)(uri ${KIPRJMOD}/proj_local.pretty)(options "")(descr ""))
   (lib (name LED_kicad_footprints-master)(type KiCad)(uri ${KIPRJMOD}/LED_kicad_footprints-master)(options "")(descr ""))
   (lib (name graphics)(type KiCad)(uri ${KIPRJMOD}/graphics)(options "")(descr ""))
-  (lib (name library)(type KiCad)(uri C:/Users/ZEUS-NOTE/Documents/kbd-master/library)(options "")(descr ""))
   (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/kbd-master/kbd.pretty)(options "")(descr ""))
 )
